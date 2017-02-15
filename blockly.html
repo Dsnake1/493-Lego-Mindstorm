@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="blockly/blockly_uncompressed.js"></script>
+    <script src="blockly/generators/javascript.js"></script>
+    <script src="blockly/msg/js/en.js"></script>
+    <script src="javascript.js"></script>
+    <script src="blocks.js"></script>
+    <style>
+      html, body {
+        background-color: #fff;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        height: 100%;
+      }
+      .blocklySvg {
+        height: 100%;
+        width: 100%;
+      }
+    </style>
+    <script>
+      function init() {
+        Blockly.inject(document.body, {toolbox: document.getElementById('toolbox')});
+        // Let the top-level application know that Blockly is ready.
+        window.parent.blockly_loaded(Blockly);
+
+//        var rootBlock = Blockly.Block.obtain(Blockly.mainWorkspace, 'root_thang');
+//        rootBlock.initSvg();
+//        rootBlock.render();
+//        rootBlock.setMovable(false);
+//        rootBlock.setDeletable(false);
+
+      }
+    </script>
+  </head>
+  <body onload="init()">
+    <xml id="toolbox" style="display: none">
+      <category name="Forward">
+        <block type="move_forward"></block>
+      </category>
+      <category name="Backward">
+        <block type="move_backward"></block>
+      </category>
+      <category name = "Turn">
+        <block type="turn_left"></block>
+        <block type="turn_right"></block> 
+      </category>
+    </xml>
+  </body>
+</html>
