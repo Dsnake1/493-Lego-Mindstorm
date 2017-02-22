@@ -28,32 +28,59 @@ Blockly.Blocks['turn_right'] = {
   }
 };
 
-Blockly.Blocks['move_forward'] = {
+Blockly.Blocks['move_forward_in'] = {
   init: function() {
     this.appendDummyInput()
-        .appendField("move_forward")
-        .appendField(new Blockly.FieldDropdown([["inches","forward_inches"], ["feet","forward_feet"]]), "forward");
+        .appendField("move_forward_inches")
+        .appendField(new Blockly.FieldDropdown([["1","1_in"],["2","2_in"],["3","3_in"],["4","4_in"],["5","5_in"],["6","6_in"],["7","7_in"],["8","8_in"],["9","9_in"],["10","10_in"],["11","11_in"],]), "forward");
     this.setInputsInline(true);
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
     this.setColour(135);
-    this.setTooltip('this is to move forward');
+    this.setTooltip('this is to move forward in inches');
+    this.setHelpUrl('');
+  }
+};
+
+Blockly.Blocks['move_forward_ft'] = {
+  init: function() {
+    this.appendDummyInput()
+        .appendField("move_forward_feet")
+        .appendField(new Blockly.FieldDropdown([["1","1_ft"],["2","2_ft"],["3","3_ft"],["4","4_ft"],["5","5_ft"],]), "forward");
+    this.setInputsInline(true);
+    this.setPreviousStatement(true, null);
+    this.setNextStatement(true, null);
+    this.setColour(135);
+    this.setTooltip('this is to move forward in feet');
     this.setHelpUrl('');
   }
 };
 
 
-
-Blockly.Blocks['move_backward'] = {
+Blockly.Blocks['move_backward_in'] = {
   init: function() {
     this.appendDummyInput()
-        .appendField("move_backward")
-        .appendField(new Blockly.FieldDropdown([["inches","backward_inches"], ["feet","backward_feet"]]), "backward");
+        .appendField("move_backward_inches")
+        .appendField(new Blockly.FieldDropdown([["1","1_in"],["2","2_in"],["3","3_in"],["4","4_in"],["5","5_in"],["6","6_in"],["7","7_in"],["8","8_in"],["9","9_in"],["10","10_in"],["11","11_in"],]), "backward");
     this.setInputsInline(true);
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
     this.setColour(135);
-    this.setTooltip('this is to reverse');
+    this.setTooltip('this is to move forward in inches');
+    this.setHelpUrl('');
+  }
+};
+
+Blockly.Blocks['move_backward_ft'] = {
+  init: function() {
+    this.appendDummyInput()
+        .appendField("move_backward_feet")
+        .appendField(new Blockly.FieldDropdown([["1","1_ft"],["2","2_ft"],["3","3_ft"],["4","4_ft"],["5","5_ft"],]), "backward");
+    this.setInputsInline(true);
+    this.setPreviousStatement(true, null);
+    this.setNextStatement(true, null);
+    this.setColour(135);
+    this.setTooltip('this is to move forward in feet');
     this.setHelpUrl('');
   }
 };

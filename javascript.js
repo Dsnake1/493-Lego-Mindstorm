@@ -72,8 +72,15 @@ Blockly.JavaScript['turn_left'] = function(block) {
 
   var dropdown_left = block.getFieldValue('left');
   // TODO: Assemble JavaScript into code variable.
-
-  var code = 'turn left code;\n';
+  var code = 'RotateMotor(OUT_A, 30, 360);\n'; //default value for turn left is a slight_left value
+  
+  if (dropdown_left === "strong_left") { //determine if user wants a strong left turn
+    code = 'RotateMotor(OUT_A, 30, 720);\n';
+  }
+  
+  if (dropdown_left === "hard_left") { //determine if user wants a hard left turn
+    code = 'RotateMotor(OUT_A, 30, 1440);\n';
+  }
 
   return code;
 };
@@ -81,23 +88,161 @@ Blockly.JavaScript['turn_left'] = function(block) {
 Blockly.JavaScript['turn_right'] = function(block) {
   var dropdown_right = block.getFieldValue('right');
   // TODO: Assemble JavaScript into code variable.
-  var code = 'turn right code;\n';
+  var code = 'RotateMotor(OUT_B, 30, 360);\n'; //default value for turn right is a slight_right value
+  
+  if (dropdown_right === "strong_right") { //determine if user wants a strong right turn
+    code = 'RotateMotor(OUT_B, 30, 720);\n';
+  }
+  
+  if (dropdown_right === "hard_right") { //determine if user wants a hard right turn
+    code = 'RotateMotor(OUT_B, 30, 1440);\n';
+  }
+
   return code;
 };
 
-Blockly.JavaScript['move_forward'] = function(block) {
-  var number_feet = block.getFieldValue('feet');
-  var number_inches = block.getFieldValue('inches');
+Blockly.JavaScript['move_forward_in'] = function(block) {
+  var number_inches = block.getFieldValue('forward');
   // TODO: Assemble JavaScript into code variable.
-  var code = 'move forward code;\n';
+  var code = 'RotateMotor(OUT_A, 30, 30);\n'; //set default value to move forward 1 inch
+  
+  if (number_inches === "2_in") {
+    code = 'RotateMotor(OUT_A, 30, 60);\n';
+  }
+  
+  if (number_inches === "3_in") {
+    code = 'RotateMotor(OUT_A, 30, 90);\n';
+  }
+  
+  if (number_inches === "4_in") {
+    code = 'RotateMotor(OUT_A, 30, 120);\n';
+  }
+  
+  if (number_inches === "5_in") {
+    code = 'RotateMotor(OUT_A, 30, 150);\n';
+  }
+  
+  if (number_inches === "6_in") {
+    code = 'RotateMotor(OUT_A, 30, 180);\n';
+  }
+  
+  if (number_inches === "7_in") {
+    code = 'RotateMotor(OUT_A, 30, 210);\n';
+  }
+  
+  if (number_inches === "8_in") {
+    code = 'RotateMotor(OUT_A, 30, 240);\n';
+  }
+  
+  if (number_inches === "9_in") {
+    code = 'RotateMotor(OUT_A, 30, 270);\n';
+  }
+  
+  if (number_inches === "10_in") {
+    code = 'RotateMotor(OUT_A, 30, 300);\n';
+  }
+  
+  if (number_inches === "11_in") {
+    code = 'RotateMotor(OUT_A, 30, 330);\n';
+  }  
+  
   return code;
 };
 
-Blockly.JavaScript['move_backward'] = function(block) {
-  var number_feet = block.getFieldValue('feet');
-  var number_inches = block.getFieldValue('inches');
+Blockly.JavaScript['move_forward_ft'] = function(block) {
+  var number_feet = block.getFieldValue('forward');
   // TODO: Assemble JavaScript into code variable.
-  var code = 'move backward code;\n';
+  var code = 'RotateMotor(OUT_A, 30, 360);\n'; //set default value to move forward 1 foot
+  
+  if (number_feet === "2_ft") {
+    code = 'RotateMotor(OUT_A, 30, 720);\n';
+  }
+  
+  if (number_feet === "3_ft") {
+    code = 'RotateMotor(OUT_A, 30, 1080);\n';
+  }
+  
+  if (number_feet === "4_ft") {
+    code = 'RotateMotor(OUT_A, 30, 1440);\n';
+  }
+  
+  if (number_feet === "5_ft") {
+    code = 'RotateMotor(OUT_A, 30, 1800);\n';
+  }
+    
+  
+  return code;
+};
+
+Blockly.JavaScript['move_backward_in'] = function(block) {
+  var number_inches = block.getFieldValue('backward');
+  // TODO: Assemble JavaScript into code variable.
+  var code = 'RotateMotor(OUT_A, 30, -30);\n'; //set default value to move backward 1 inch
+  
+  if (number_inches === "2_in") {
+    code = 'RotateMotor(OUT_A, 30, -60);\n';
+  }
+  
+  if (number_inches === "3_in") {
+    code = 'RotateMotor(OUT_A, 30, -90);\n';
+  }
+  
+  if (number_inches === "4_in") {
+    code = 'RotateMotor(OUT_A, 30, -120);\n';
+  }
+  
+  if (number_inches === "5_in") {
+    code = 'RotateMotor(OUT_A, 30, -150);\n';
+  }
+  
+  if (number_inches === "6_in") {
+    code = 'RotateMotor(OUT_A, 30, -180);\n';
+  }
+  
+  if (number_inches === "7_in") {
+    code = 'RotateMotor(OUT_A, 30, -210);\n';
+  }
+  
+  if (number_inches === "8_in") {
+    code = 'RotateMotor(OUT_A, 30, -240);\n';
+  }
+  
+  if (number_inches === "9_in") {
+    code = 'RotateMotor(OUT_A, 30, -270);\n';
+  }
+  
+  if (number_inches === "10_in") {
+    code = 'RotateMotor(OUT_A, 30, -300);\n';
+  }
+  
+  if (number_inches === "11_in") {
+    code = 'RotateMotor(OUT_A, 30, -330);\n';
+  }  
+  
+  return code;
+};
+
+Blockly.JavaScript['move_backward_ft'] = function(block) {
+  var number_feet = block.getFieldValue('backward');
+  // TODO: Assemble JavaScript into code variable.
+  var code = 'RotateMotor(OUT_A, 30, -360);\n'; //set default value to move backward 1 foot
+  
+  if (number_feet === "2_ft") {
+    code = 'RotateMotor(OUT_A, 30, -720);\n';
+  }
+  
+  if (number_feet === "3_ft") {
+    code = 'RotateMotor(OUT_A, 30, -1080);\n';
+  }
+  
+  if (number_feet === "4_ft") {
+    code = 'RotateMotor(OUT_A, 30, -1440);\n';
+  }
+  
+  if (number_feet === "5_ft") {
+    code = 'RotateMotor(OUT_A, 30, -1800);\n';
+  }
+    
   return code;
 };
 
@@ -105,7 +250,8 @@ Blockly.JavaScript['do_donuts'] = function(block) {
   var dropdown_spin_type = block.getFieldValue('spin_type');
   var number_inches = block.getFieldValue('inches');
   // TODO: Assemble JavaScript into code variable.
-  var code = 'do donuts code;\n';
+  var code = 'RotateMotor(OUT_A, 30, -1800);\n';
+      code += 'RotateMotor(OUT_B, 30, 1800);\n'; 
   return code;
 };
 
