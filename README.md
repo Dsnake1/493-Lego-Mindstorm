@@ -1,5 +1,3 @@
-Code for a visual Lego NXT robot controller using Blockly and NXC.
-
-Dylan Schnabel
-Dakota Krout
-Michael Adams
+# blockly-page-editor
+Example for creating a visual programming editor with Google Blockly.
+View the full tutorial online at: http://jlcreations.com/create-visual-programming-editor-blockly/
