@@ -10,7 +10,6 @@
 		window.blockly_loaded = function(blockly) {
 			return window.Blockly = blockly;
 		}
-
 		window.run_code = function() {
 			code = window.Blockly.JavaScript.workspaceToCode();
          alert(code);
@@ -29,7 +28,7 @@
 	<h1 id="header">Lego Mindstorm Blockly Controller</h1>
 	<div id="blockly_editor">
 		<!-- Blockly will be injected in the iframe below //-->
-		<iframe id="blockly" src="blockly.html" width="80%" height="80%"></iframe>
+		<iframe id="blockly" src="blockly.html" width="100%" height="100%"></iframe>
 	</div>
 	
 </body>

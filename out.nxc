@@ -1,0 +1,6 @@
+task main () {
+RotateMotor(OUT_A, 30, 360);
+
+RotateMotor(OUT_B, 30, 360);
+
+}

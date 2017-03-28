@@ -24,11 +24,11 @@ Blockly.JavaScript['turn_right'] = function(block) {
   var code = 'little_turn_right\n'; //default value for turn right is a slight_right value
   
   if (dropdown_right === "strong_right") { //determine if user wants a strong right turn
-    code = 'strong_turn_left\n';
+    code = 'strong_turn_right\n';
   }
   
   if (dropdown_right === "hard_right") { //determine if user wants a hard right turn
-    code = 'hard_turn_left\n';
+    code = 'hard_turn_right\n';
   }
   return code;
 };

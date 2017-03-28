@@ -102,7 +102,9 @@ class Browser extends Region {
     final Button showCommands = new Button("Show Commands");
     final WebView smallView = new WebView();
     private boolean needDocumentationButton = true;
-    
+    private double zoomFactor = 1.0;
+    final Button zoomIn = new Button ("Zoom in");
+    final Button zoomOut = new Button ("Zoom out");
     
     public Browser(final Stage stage) {
         //apply the styles
@@ -120,8 +122,6 @@ class Browser extends Region {
          showCommands.setOnAction((ActionEvent t) -> {
              //String lastBlock = (String) webEngine.executeScript("getLastBlock()");
              String code = (String) webEngine.executeScript("getCode()");
-             //JOptionPane.showMessageDialog (null, "CLICK - " + lastBlock);
-             //JOptionPane.showMessageDialog (null, code);
              //Now we take the code string and pass it to the parser to get what we need.
              parser(code);
          });
@@ -138,6 +138,8 @@ class Browser extends Region {
                     return smallView.getEngine();
         });
 
+
+
         // process page loading
         webEngine.getLoadWorker().stateProperty().addListener(
             (ObservableValue<? extends State> ov, State oldState, 
@@ -148,141 +150,165 @@ class Browser extends Region {
                                 = (JSObject) webEngine.executeScript("window");
                         win.setMember("app", new JavaApp());
                         //if (needDocumentationButton) {
+                            toolBar.getChildren().add(zoomIn);
+                            toolBar.getChildren().add(zoomOut);
                             toolBar.getChildren().add(showCommands);
                         //}
                     }
-        });
-        // load the home page        
-        //webEngine.load(WebViewSample2.class.getResource("showImages.html").toExternalForm());
-        webEngine.load(WebViewSample2.class.getResource("index.html").toExternalForm());
+         });
+         zoomIn.setOnAction((ActionEvent t) -> {
+            zoomFactor += 0.1;
+           browser.setZoom (zoomFactor);
+         });
+         
+         zoomOut.setOnAction((ActionEvent t) -> {
+            zoomFactor -= 0.1;
+            browser.setZoom (zoomFactor);
+         });
+         // load the home page        
+         //webEngine.load(WebViewSample2.class.getResource("showImages.html").toExternalForm());
+         webEngine.load(WebViewSample2.class.getResource("index.html").toExternalForm());
 
-        //add components
-        getChildren().add(toolBar);
-        getChildren().add(browser);
-    }
+          //add components
+         getChildren().add(toolBar);
+         getChildren().add(browser);
+   }
     
-     public void parser(String splitMe) 
-         {
-           String[] splitString = splitMe.split("\\n");
-           String[] result = new String[1000];
-           int r=0;
-         
-           for (int i = 0; i < splitString.length; i ++)
-           {
-             if (splitString[i]=="NULL" || splitString[i]=="" || splitString[i]==" "|| splitString[i]=="EOF")
-             {
-               break;
-             }
-             else
-             {
-               if (splitString[i].contains("move_forward_in"))
-               {    
-                 String[] tempStrNum = splitString[i].split("!");
-                 String trimTempStrNum = tempStrNum[1].trim();
-                 int tempIntNum = Integer.parseInt(trimTempStrNum) * 10;
-                 String tempStrCalculated = Integer.toString(tempIntNum);
-                 //take split string and put it as NXC code here, add it to array as a string
-                 String NXC_Code="RotateMotor(OUT_A, 30, "+tempStrCalculated+");\nRotateMotor(OUT_B, 30, "+tempStrCalculated+ ");\n";
-                 result[r] = NXC_Code;
-                 r++;
-               }
-               else if (splitString[i].contains("move_forward_ft"))
-               {    
-                 String[] tempStrNum = splitString[i].split("!");
-                 String trimTempStrNum = tempStrNum[1].trim();
-                 int tempIntNum = Integer.parseInt(trimTempStrNum) * 180;
-                 String tempStrCalculated = Integer.toString(tempIntNum);
-                 //take split string and put it as NXC code here, add it to array as a string
-                 String NXC_Code="RotateMotor(OUT_A, 30, "+tempStrCalculated+");\nRotateMotor(OUT_B, 30, "+tempStrCalculated+ ");\n";
-                 result[r] = NXC_Code;
-                 r++;
-               }
-               else if (splitString[i].contains("move_backward_in"))
-               {  
-                 String[] tempStrNum = splitString[i].split("!");
-                 String trimTempStrNum = tempStrNum[1].trim();
-                 int tempIntNum = Integer.parseInt(trimTempStrNum) * 10;
-                 String tempStrCalculated = Integer.toString(tempIntNum);
-                 //take split string and put it as NXC code here, add it to array as a string
-                 String NXC_Code="RotateMotor(OUT_A, -30, "+tempStrCalculated+");\nRotateMotor(OUT_B, -30, "+tempStrCalculated+ ");\n";
-                 result[r] = NXC_Code;
-                 r++;
-               }
-               else if (splitString[i].contains("move_backward_ft"))
-               {   
-                 String[] tempStrNum = splitString[i].split("!");
-                 String trimTempStrNum = tempStrNum[1].trim();
-                 int tempIntNum = Integer.parseInt(trimTempStrNum) * 180;
-                 String tempStrCalculated = Integer.toString(tempIntNum);
-                 //take split string and put it as NXC code here, add it to array as a string
-                 String NXC_Code="RotateMotor(OUT_A, -30, "+tempStrCalculated+");\nRotateMotor(OUT_B, -30, "+tempStrCalculated+ ");\n";
-                 result[r] = NXC_Code;
-                 r++;
-               }
-               else if (splitString[i].contains("little_turn_left"))
-               {    
-                 String NXC_Code="RotateMotor(OUT_A, 30, 360);\n";
-                 result[r] = NXC_Code;
-                 r++;
-               }
-               else if (splitString[i].contains("strong_turn_left"))
-               {    
-                 String NXC_Code="RotateMotor(OUT_A, 30, 720);\n";
-                 result[r] = NXC_Code;
-                 r++;
-               }
-               else if (splitString[i].contains("hard_turn_left"))
-               {    
-                 String NXC_Code="RotateMotor(OUT_A, 30, 1080);\n";
-                 result[r] = NXC_Code;
-                 r++;
-               }
-               else if (splitString[i].contains("little_turn_right"))
-               {    
-                 String NXC_Code="RotateMotor(OUT_B, 30, 360);\n";
-                 result[r] = NXC_Code;
-                 r++;
-               }
-               else if (splitString[i].contains("strong_turn_right"))
-               {    
-                 String NXC_Code="RotateMotor(OUT_B, 30, 720);\n";
-                 result[r] = NXC_Code;
-                 r++;
-               }
-               else if (splitString[i].contains("hard_turn_right"))
-               {    
-                 String NXC_Code="RotateMotor(OUT_B, 30, 1080);\n";
-                 result[r] = NXC_Code;
-                 r++;
-               } 
-               else{}  
-             }
-           }
-           try
-           {
-           File fout = new File("out.txt");
-           FileOutputStream fos = new FileOutputStream(fout);
-           BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(fos));
-           bw.write("task main () {"); //print out the nxc header stuff to file
-           bw.newLine();
-            
-           for (int z = 0; z < r; z++)
-           {
-             bw.write(result[z]); //print out the result array to file
-             bw.newLine();
-           }
-            
-           bw.write("}");    	//print out the nxc footer stuff to file
-         
-           bw.close();
-           } 
-           catch (IOException e)
-           {
-            System.err.println("Problem writing to the file");
-           }
-           //at this point everything will have been sent to the file, and it should be able to be compiled
+   public void parser(String splitMe) {
+     String[] splitString = splitMe.split("\\n");
+     String[] result = new String[1000];
+     int r=0;
+   
+     for (int i = 0; i < splitString.length; i ++)
+     {
+       if (splitString[i]=="NULL" || splitString[i]=="" || splitString[i]==" "|| splitString[i]=="EOF")
+       {
+         break;
+       }
+       else
+       {
+         if (splitString[i].contains("move_forward_in"))
+         {    
+           String[] tempStrNum = splitString[i].split("!");
+           String trimTempStrNum = tempStrNum[1].trim();
+           int tempIntNum = Integer.parseInt(trimTempStrNum) * 10;
+           String tempStrCalculated = Integer.toString(tempIntNum);
+           //take split string and put it as NXC code here, add it to array as a string
+           String NXC_Code="RotateMotor(OUT_AB, 30, "+tempStrCalculated+");\n";
+           result[r] = NXC_Code;
+           r++;
          }
+         else if (splitString[i].contains("move_forward_ft"))
+         {    
+           String[] tempStrNum = splitString[i].split("!");
+           String trimTempStrNum = tempStrNum[1].trim();
+           int tempIntNum = Integer.parseInt(trimTempStrNum) * 180;
+           String tempStrCalculated = Integer.toString(tempIntNum);
+           //take split string and put it as NXC code here, add it to array as a string
+           String NXC_Code="RotateMotor(OUT_AB, 30, "+tempStrCalculated+");\n";
+           result[r] = NXC_Code;
+           r++;
+         }
+         else if (splitString[i].contains("move_backward_in"))
+         {  
+           String[] tempStrNum = splitString[i].split("!");
+           String trimTempStrNum = tempStrNum[1].trim();
+           int tempIntNum = Integer.parseInt(trimTempStrNum) * 10;
+           String tempStrCalculated = Integer.toString(tempIntNum);
+           //take split string and put it as NXC code here, add it to array as a string
+           String NXC_Code="RotateMotor(OUT_AB, -30, "+tempStrCalculated+");\n";
+           result[r] = NXC_Code;
+           r++;
+         }
+         else if (splitString[i].contains("move_backward_ft"))
+         {   
+           String[] tempStrNum = splitString[i].split("!");
+           String trimTempStrNum = tempStrNum[1].trim();
+           int tempIntNum = Integer.parseInt(trimTempStrNum) * 180;
+           String tempStrCalculated = Integer.toString(tempIntNum);
+           //take split string and put it as NXC code here, add it to array as a string
+           String NXC_Code="RotateMotor(OUT_AB, -30, "+tempStrCalculated+");\n";
+           result[r] = NXC_Code;
+           r++;
+         }
+         else if (splitString[i].contains("little_turn_left"))
+         {    
+           String NXC_Code="RotateMotor(OUT_A, 30, 360);\n";
+           result[r] = NXC_Code;
+           r++;
+         }
+         else if (splitString[i].contains("strong_turn_left"))
+         {    
+           String NXC_Code="RotateMotor(OUT_A, 30, 720);\n";
+           result[r] = NXC_Code;
+           r++;
+         }
+         else if (splitString[i].contains("hard_turn_left"))
+         {    
+           String NXC_Code="RotateMotor(OUT_A, 30, 1080);\n";
+           result[r] = NXC_Code;
+           r++;
+         }
+         else if (splitString[i].contains("little_turn_right"))
+         {    
+           String NXC_Code="RotateMotor(OUT_B, 30, 360);\n";
+           result[r] = NXC_Code;
+           r++;
+         }
+         else if (splitString[i].contains("strong_turn_right"))
+         {    
+           String NXC_Code="RotateMotor(OUT_B, 30, 720);\n";
+           result[r] = NXC_Code;
+           r++;
+         }
+         else if (splitString[i].contains("hard_turn_right"))
+         {    
+           String NXC_Code="RotateMotor(OUT_B, 30, 1080);\n";
+           result[r] = NXC_Code;
+           r++;
+         } 
+         else{}  
+       }
+     }
+     try
+     {
+     File fout = new File("out.nxc");
+     FileOutputStream fos = new FileOutputStream(fout);
+     BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(fos));
+     bw.write("task main () {"); //print out the nxc header stuff to file
+     bw.newLine();
+      
+     for (int z = 0; z < r; z++)
+     {
+       bw.write(result[z]); //print out the result array to file
+       bw.newLine();
+     }
+      
+     bw.write("}");    	//print out the nxc footer stuff to file
+   
+     bw.close();
+     } 
+     catch (IOException e)
+     {
+      System.err.println("Problem writing to the file");
+     }
+     //at this point everything will have been sent to the file, and it should be able to be compiled
+     set_compile();
+   }
 
+   public void set_compile() {
+      //Create command line string
+      String CMD = "cmd.exe /c nbc -Susb -d out.nxc -nbc=blah.out -E=err.txt > test.out";
+      
+      try {
+         //Runtime object to hold Runtime execution
+         Runtime rt = Runtime.getRuntime();
+         rt.exec(CMD);
+      } catch (Exception e) {
+         e.printStackTrace(System.err);
+      }
+      
+   }
 
     // JavaScript interface object
     public static class JavaApp {
