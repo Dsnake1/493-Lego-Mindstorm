@@ -122,8 +122,20 @@ class Browser extends Region {
          showCommands.setOnAction((ActionEvent t) -> {
              //String lastBlock = (String) webEngine.executeScript("getLastBlock()");
              String code = (String) webEngine.executeScript("getCode()");
+             String touch_sen, light_sen, sound_sen, distance_sen, leftMotor, rightMotor, otherOut, wheelDiam, trackWid;
+             String IOVals = (String) webEngine.executeScript("getIOVals()");
+             String[] splitIOVals = IOVals.split(",");
+             touch_sen = splitIOVals[0].toString();
+             light_sen = splitIOVals[1].toString();
+             sound_sen = splitIOVals[2].toString();
+             distance_sen = splitIOVals[3].toString();
+             leftMotor = splitIOVals[4].toString();
+             rightMotor = splitIOVals[5].toString();
+             otherOut = splitIOVals[6].toString();
+             wheelDiam = splitIOVals[7].toString();
+             trackWid = splitIOVals[8].toString();                                                              
              //Now we take the code string and pass it to the parser to get what we need.
-             parser(code);
+             parser(code, touch_sen, light_sen, sound_sen, distance_sen, leftMotor, rightMotor, otherOut, wheelDiam, trackWid);
          });
 
         smallView.setPrefSize(120, 80);
@@ -174,11 +186,12 @@ class Browser extends Region {
          getChildren().add(browser);
    }
     
-   public void parser(String splitMe) {
+   public void parser(String splitMe, String touch_sen, String light_sen, String sound_sen, String distance_sen, String leftMotor, String rightMotor, String otherOut, String wheelDiam, String trackWid) {
+   
      String[] splitString = splitMe.split("\\n");
      String[] result = new String[1000];
      int r=0;
-   
+          
      for (int i = 0; i < splitString.length; i ++)
      {
        if (splitString[i]=="NULL" || splitString[i]=="" || splitString[i]==" "|| splitString[i]=="EOF")
@@ -205,7 +218,7 @@ class Browser extends Region {
            int tempIntNum = Integer.parseInt(trimTempStrNum) * 180;
            String tempStrCalculated = Integer.toString(tempIntNum);
            //take split string and put it as NXC code here, add it to array as a string
-           String NXC_Code="RotateMotor(OUT_AB, 30, "+tempStrCalculated+");\n";
+           String NXC_Code="RotateMotor(OUT_"+leftMotor+rightMotor+", 30, "+tempStrCalculated+");\n";
            result[r] = NXC_Code;
            r++;
          }
@@ -216,7 +229,7 @@ class Browser extends Region {
            int tempIntNum = Integer.parseInt(trimTempStrNum) * 10;
            String tempStrCalculated = Integer.toString(tempIntNum);
            //take split string and put it as NXC code here, add it to array as a string
-           String NXC_Code="RotateMotor(OUT_AB, -30, "+tempStrCalculated+");\n";
+           String NXC_Code="RotateMotor(OUT_"+leftMotor+rightMotor+", -30, "+tempStrCalculated+");\n";
            result[r] = NXC_Code;
            r++;
          }
@@ -227,43 +240,58 @@ class Browser extends Region {
            int tempIntNum = Integer.parseInt(trimTempStrNum) * 180;
            String tempStrCalculated = Integer.toString(tempIntNum);
            //take split string and put it as NXC code here, add it to array as a string
-           String NXC_Code="RotateMotor(OUT_AB, -30, "+tempStrCalculated+");\n";
+           String NXC_Code="RotateMotor(OUT_"+leftMotor+rightMotor+", -30, "+tempStrCalculated+");\n";
            result[r] = NXC_Code;
            r++;
          }
          else if (splitString[i].contains("little_turn_left"))
          {    
-           String NXC_Code="RotateMotor(OUT_A, 30, 360);\n";
+           String NXC_Code="RotateMotor(OUT_"+leftMotor+", 30, 360);\n";
            result[r] = NXC_Code;
            r++;
          }
          else if (splitString[i].contains("strong_turn_left"))
          {    
-           String NXC_Code="RotateMotor(OUT_A, 30, 720);\n";
+           String NXC_Code="RotateMotor(OUT_"+leftMotor+", 30, 720);\n";
            result[r] = NXC_Code;
            r++;
          }
          else if (splitString[i].contains("hard_turn_left"))
          {    
-           String NXC_Code="RotateMotor(OUT_A, 30, 1080);\n";
+           String NXC_Code="RotateMotor(OUT_"+leftMotor+", 30, 1080);\n";
            result[r] = NXC_Code;
            r++;
          }
          else if (splitString[i].contains("little_turn_right"))
          {    
-           String NXC_Code="RotateMotor(OUT_B, 30, 360);\n";
+           String NXC_Code="RotateMotor(OUT_"+rightMotor+", 30, 360);\n";
            result[r] = NXC_Code;
            r++;
          }
          else if (splitString[i].contains("strong_turn_right"))
          {    
-           String NXC_Code="RotateMotor(OUT_B, 30, 720);\n";
+           String NXC_Code="RotateMotor(OUT_"+rightMotor+", 30, 720);\n";
            result[r] = NXC_Code;
            r++;
          }
          else if (splitString[i].contains("hard_turn_right"))
          {    
-           String NXC_Code="RotateMotor(OUT_B, 30, 1080);\n";
+           String NXC_Code="RotateMotor(OUT_"+rightMotor+", 30, 1080);\n";
+           result[r] = NXC_Code;
+           r++;
+         } 
+         else if (splitString[i].contains("touch_sensor"))
+         {    
+           String NXC_Code="SetSensor("+touch_sen+",SENSOR_TOUCH);\n OnFwd(OUT_"+leftMotor+rightMotor+", 75);\nuntil (SENSOR_1 == 1);\nOff(OUT_"+leftMotor+rightMotor+");\n";
+           result[r] = NXC_Code;
+           r++;
+         }
+         else if (splitString[i].contains("distance_sensor"))
+         {   
+           String[] tempStrNum = splitString[i].split("!");
+           String trimTempStrNum = tempStrNum[1].trim();
+           //take split string and put it as NXC code here, add it to array as a string
+           String NXC_Code="SetSensorLowspeed("+distance_sen+");\nwhile(true){OnFwd(OUT_"+leftMotor+rightMotor+",50);\nwhile(SensorUS("+distance_sen+")>"+trimTempStrNum+");\nOff(OUT_"+leftMotor+rightMotor+");\nOnRev(OUT_"+rightMotor+",100);\nWait(800);\n}\n";
            result[r] = NXC_Code;
            r++;
          } 
@@ -298,8 +326,8 @@ class Browser extends Region {
 
    public void set_compile() {
       //Create command line string
+      //String CMD = "cmd.exe /c pause";
       String CMD = "cmd.exe /c nbc -Susb -d out.nxc -nbc=blah.out -E=err.txt > test.out";
-      
       try {
          //Runtime object to hold Runtime execution
          Runtime rt = Runtime.getRuntime();

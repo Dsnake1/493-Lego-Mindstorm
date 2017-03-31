@@ -345,1993 +345,2035 @@ TNXCSetScreenMode struct
  ScreenMode dword
 TNXCSetScreenMode ends
 
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__SSMArgs TNXCSetScreenMode
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__SPTArgs TNXCSoundPlayTone
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__SPFArgs TNXCSoundPlayFile
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__SSMArgsMutex mutex
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__SPTArgsMutex mutex
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__SPFArgsMutex mutex
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__ArrHelper__PlayTonesTone_219_0 Tone 
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpsbytefopen sbyte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpswordfopen sword
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpslongfopen slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmplongfopen long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__D0fopen slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DU0fopen long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__zffopen byte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strtmpbuffopen byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strbuffopen byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strretvalfopen byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpfloatfopen float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DF0fopen float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpsbytemain sbyte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpswordmain sword
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpslongmain slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmplongmain long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__D0main slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DU0main long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__zfmain byte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strtmpbufmain byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strbufmain byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strretvalmain byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpfloatmain float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DF0main float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpsbytePlaySound sbyte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpswordPlaySound sword
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpslongPlaySound slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmplongPlaySound long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__D0PlaySound slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DU0PlaySound long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__zfPlaySound byte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strtmpbufPlaySound byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strbufPlaySound byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strretvalPlaySound byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpfloatPlaySound float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DF0PlaySound float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpsbytePlayTones sbyte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpswordPlayTones sword
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpslongPlayTones slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmplongPlayTones long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__D0PlayTones slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DU0PlayTones long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__zfPlayTones byte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strtmpbufPlayTones byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strbufPlayTones byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strretvalPlayTones byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpfloatPlayTones float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DF0PlayTones float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpsbyteSensorNXTSumoEyes sbyte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpswordSensorNXTSumoEyes sword
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpslongSensorNXTSumoEyes slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmplongSensorNXTSumoEyes long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__D0SensorNXTSumoEyes slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DU0SensorNXTSumoEyes long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__zfSensorNXTSumoEyes byte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strtmpbufSensorNXTSumoEyes byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strbufSensorNXTSumoEyes byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strretvalSensorNXTSumoEyes byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpfloatSensorNXTSumoEyes float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DF0SensorNXTSumoEyes float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpsbyteSetSensorType_inline_SetSensorHTEOPD sbyte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpswordSetSensorType_inline_SetSensorHTEOPD sword
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpslongSetSensorType_inline_SetSensorHTEOPD slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmplongSetSensorType_inline_SetSensorHTEOPD long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__D0SetSensorType_inline_SetSensorHTEOPD slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DU0SetSensorType_inline_SetSensorHTEOPD long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__zfSetSensorType_inline_SetSensorHTEOPD byte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strtmpbufSetSensorType_inline_SetSensorHTEOPD byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strbufSetSensorType_inline_SetSensorHTEOPD byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strretvalSetSensorType_inline_SetSensorHTEOPD byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpfloatSetSensorType_inline_SetSensorHTEOPD float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DF0SetSensorType_inline_SetSensorHTEOPD float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpsbyteSetSensorType_inline_SetSensorHTGyro sbyte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpswordSetSensorType_inline_SetSensorHTGyro sword
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpslongSetSensorType_inline_SetSensorHTGyro slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmplongSetSensorType_inline_SetSensorHTGyro long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__D0SetSensorType_inline_SetSensorHTGyro slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DU0SetSensorType_inline_SetSensorHTGyro long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__zfSetSensorType_inline_SetSensorHTGyro byte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strtmpbufSetSensorType_inline_SetSensorHTGyro byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strbufSetSensorType_inline_SetSensorHTGyro byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strretvalSetSensorType_inline_SetSensorHTGyro byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpfloatSetSensorType_inline_SetSensorHTGyro float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DF0SetSensorType_inline_SetSensorHTGyro float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpsbyteSetSensorType_inline_SetSensorHTMagnet sbyte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpswordSetSensorType_inline_SetSensorHTMagnet sword
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpslongSetSensorType_inline_SetSensorHTMagnet slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmplongSetSensorType_inline_SetSensorHTMagnet long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__D0SetSensorType_inline_SetSensorHTMagnet slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DU0SetSensorType_inline_SetSensorHTMagnet long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__zfSetSensorType_inline_SetSensorHTMagnet byte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strtmpbufSetSensorType_inline_SetSensorHTMagnet byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strbufSetSensorType_inline_SetSensorHTMagnet byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strretvalSetSensorType_inline_SetSensorHTMagnet byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpfloatSetSensorType_inline_SetSensorHTMagnet float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DF0SetSensorType_inline_SetSensorHTMagnet float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpsbyteSetSensorType_inline_SetSensorLight sbyte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpswordSetSensorType_inline_SetSensorLight sword
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpslongSetSensorType_inline_SetSensorLight slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmplongSetSensorType_inline_SetSensorLight long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__D0SetSensorType_inline_SetSensorLight slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DU0SetSensorType_inline_SetSensorLight long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__zfSetSensorType_inline_SetSensorLight byte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strtmpbufSetSensorType_inline_SetSensorLight byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strbufSetSensorType_inline_SetSensorLight byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strretvalSetSensorType_inline_SetSensorLight byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpfloatSetSensorType_inline_SetSensorLight float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DF0SetSensorType_inline_SetSensorLight float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpsbyteSetSensorType_inline_SetSensorLowspeed sbyte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpswordSetSensorType_inline_SetSensorLowspeed sword
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpslongSetSensorType_inline_SetSensorLowspeed slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmplongSetSensorType_inline_SetSensorLowspeed long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__D0SetSensorType_inline_SetSensorLowspeed slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DU0SetSensorType_inline_SetSensorLowspeed long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__zfSetSensorType_inline_SetSensorLowspeed byte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strtmpbufSetSensorType_inline_SetSensorLowspeed byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strbufSetSensorType_inline_SetSensorLowspeed byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strretvalSetSensorType_inline_SetSensorLowspeed byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpfloatSetSensorType_inline_SetSensorLowspeed float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DF0SetSensorType_inline_SetSensorLowspeed float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpsbyteSetSensorType_inline_SetSensorMSDROD sbyte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpswordSetSensorType_inline_SetSensorMSDROD sword
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpslongSetSensorType_inline_SetSensorMSDROD slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmplongSetSensorType_inline_SetSensorMSDROD long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__D0SetSensorType_inline_SetSensorMSDROD slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DU0SetSensorType_inline_SetSensorMSDROD long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__zfSetSensorType_inline_SetSensorMSDROD byte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strtmpbufSetSensorType_inline_SetSensorMSDROD byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strbufSetSensorType_inline_SetSensorMSDROD byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strretvalSetSensorType_inline_SetSensorMSDROD byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpfloatSetSensorType_inline_SetSensorMSDROD float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DF0SetSensorType_inline_SetSensorMSDROD float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpsbyteSetSensorType_inline_SetSensorMSPressure sbyte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpswordSetSensorType_inline_SetSensorMSPressure sword
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpslongSetSensorType_inline_SetSensorMSPressure slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmplongSetSensorType_inline_SetSensorMSPressure long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__D0SetSensorType_inline_SetSensorMSPressure slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DU0SetSensorType_inline_SetSensorMSPressure long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__zfSetSensorType_inline_SetSensorMSPressure byte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strtmpbufSetSensorType_inline_SetSensorMSPressure byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strbufSetSensorType_inline_SetSensorMSPressure byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strretvalSetSensorType_inline_SetSensorMSPressure byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpfloatSetSensorType_inline_SetSensorMSPressure float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DF0SetSensorType_inline_SetSensorMSPressure float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpsbyteSetSensorType_inline_SetSensorNXTSumoEyes sbyte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpswordSetSensorType_inline_SetSensorNXTSumoEyes sword
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpslongSetSensorType_inline_SetSensorNXTSumoEyes slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmplongSetSensorType_inline_SetSensorNXTSumoEyes long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__D0SetSensorType_inline_SetSensorNXTSumoEyes slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DU0SetSensorType_inline_SetSensorNXTSumoEyes long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__zfSetSensorType_inline_SetSensorNXTSumoEyes byte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strtmpbufSetSensorType_inline_SetSensorNXTSumoEyes byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strbufSetSensorType_inline_SetSensorNXTSumoEyes byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strretvalSetSensorType_inline_SetSensorNXTSumoEyes byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpfloatSetSensorType_inline_SetSensorNXTSumoEyes float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DF0SetSensorType_inline_SetSensorNXTSumoEyes float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpsbyteSetSensorType_inline_SetSensorSound sbyte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpswordSetSensorType_inline_SetSensorSound sword
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpslongSetSensorType_inline_SetSensorSound slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmplongSetSensorType_inline_SetSensorSound long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__D0SetSensorType_inline_SetSensorSound slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DU0SetSensorType_inline_SetSensorSound long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__zfSetSensorType_inline_SetSensorSound byte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strtmpbufSetSensorType_inline_SetSensorSound byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strbufSetSensorType_inline_SetSensorSound byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strretvalSetSensorType_inline_SetSensorSound byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpfloatSetSensorType_inline_SetSensorSound float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DF0SetSensorType_inline_SetSensorSound float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpsbyteSetSensorMode_inline_SetSensorHTEOPD sbyte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpswordSetSensorMode_inline_SetSensorHTEOPD sword
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpslongSetSensorMode_inline_SetSensorHTEOPD slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmplongSetSensorMode_inline_SetSensorHTEOPD long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__D0SetSensorMode_inline_SetSensorHTEOPD slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DU0SetSensorMode_inline_SetSensorHTEOPD long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__zfSetSensorMode_inline_SetSensorHTEOPD byte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strtmpbufSetSensorMode_inline_SetSensorHTEOPD byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strbufSetSensorMode_inline_SetSensorHTEOPD byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strretvalSetSensorMode_inline_SetSensorHTEOPD byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpfloatSetSensorMode_inline_SetSensorHTEOPD float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DF0SetSensorMode_inline_SetSensorHTEOPD float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpsbyteSetSensorMode_inline_SetSensorHTGyro sbyte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpswordSetSensorMode_inline_SetSensorHTGyro sword
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpslongSetSensorMode_inline_SetSensorHTGyro slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmplongSetSensorMode_inline_SetSensorHTGyro long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__D0SetSensorMode_inline_SetSensorHTGyro slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DU0SetSensorMode_inline_SetSensorHTGyro long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__zfSetSensorMode_inline_SetSensorHTGyro byte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strtmpbufSetSensorMode_inline_SetSensorHTGyro byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strbufSetSensorMode_inline_SetSensorHTGyro byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strretvalSetSensorMode_inline_SetSensorHTGyro byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpfloatSetSensorMode_inline_SetSensorHTGyro float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DF0SetSensorMode_inline_SetSensorHTGyro float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpsbyteSetSensorMode_inline_SetSensorHTMagnet sbyte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpswordSetSensorMode_inline_SetSensorHTMagnet sword
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpslongSetSensorMode_inline_SetSensorHTMagnet slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmplongSetSensorMode_inline_SetSensorHTMagnet long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__D0SetSensorMode_inline_SetSensorHTMagnet slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DU0SetSensorMode_inline_SetSensorHTMagnet long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__zfSetSensorMode_inline_SetSensorHTMagnet byte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strtmpbufSetSensorMode_inline_SetSensorHTMagnet byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strbufSetSensorMode_inline_SetSensorHTMagnet byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strretvalSetSensorMode_inline_SetSensorHTMagnet byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpfloatSetSensorMode_inline_SetSensorHTMagnet float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DF0SetSensorMode_inline_SetSensorHTMagnet float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpsbyteSetSensorMode_inline_SetSensorLight sbyte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpswordSetSensorMode_inline_SetSensorLight sword
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpslongSetSensorMode_inline_SetSensorLight slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmplongSetSensorMode_inline_SetSensorLight long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__D0SetSensorMode_inline_SetSensorLight slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DU0SetSensorMode_inline_SetSensorLight long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__zfSetSensorMode_inline_SetSensorLight byte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strtmpbufSetSensorMode_inline_SetSensorLight byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strbufSetSensorMode_inline_SetSensorLight byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strretvalSetSensorMode_inline_SetSensorLight byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpfloatSetSensorMode_inline_SetSensorLight float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DF0SetSensorMode_inline_SetSensorLight float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpsbyteSetSensorMode_inline_SetSensorLowspeed sbyte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpswordSetSensorMode_inline_SetSensorLowspeed sword
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpslongSetSensorMode_inline_SetSensorLowspeed slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmplongSetSensorMode_inline_SetSensorLowspeed long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__D0SetSensorMode_inline_SetSensorLowspeed slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DU0SetSensorMode_inline_SetSensorLowspeed long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__zfSetSensorMode_inline_SetSensorLowspeed byte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strtmpbufSetSensorMode_inline_SetSensorLowspeed byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strbufSetSensorMode_inline_SetSensorLowspeed byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strretvalSetSensorMode_inline_SetSensorLowspeed byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpfloatSetSensorMode_inline_SetSensorLowspeed float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DF0SetSensorMode_inline_SetSensorLowspeed float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpsbyteSetSensorMode_inline_SetSensorMSDROD sbyte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpswordSetSensorMode_inline_SetSensorMSDROD sword
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpslongSetSensorMode_inline_SetSensorMSDROD slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmplongSetSensorMode_inline_SetSensorMSDROD long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__D0SetSensorMode_inline_SetSensorMSDROD slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DU0SetSensorMode_inline_SetSensorMSDROD long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__zfSetSensorMode_inline_SetSensorMSDROD byte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strtmpbufSetSensorMode_inline_SetSensorMSDROD byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strbufSetSensorMode_inline_SetSensorMSDROD byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strretvalSetSensorMode_inline_SetSensorMSDROD byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpfloatSetSensorMode_inline_SetSensorMSDROD float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DF0SetSensorMode_inline_SetSensorMSDROD float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpsbyteSetSensorMode_inline_SetSensorMSPressure sbyte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpswordSetSensorMode_inline_SetSensorMSPressure sword
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpslongSetSensorMode_inline_SetSensorMSPressure slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmplongSetSensorMode_inline_SetSensorMSPressure long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__D0SetSensorMode_inline_SetSensorMSPressure slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DU0SetSensorMode_inline_SetSensorMSPressure long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__zfSetSensorMode_inline_SetSensorMSPressure byte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strtmpbufSetSensorMode_inline_SetSensorMSPressure byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strbufSetSensorMode_inline_SetSensorMSPressure byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strretvalSetSensorMode_inline_SetSensorMSPressure byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpfloatSetSensorMode_inline_SetSensorMSPressure float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DF0SetSensorMode_inline_SetSensorMSPressure float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpsbyteSetSensorMode_inline_SetSensorNXTSumoEyes sbyte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpswordSetSensorMode_inline_SetSensorNXTSumoEyes sword
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpslongSetSensorMode_inline_SetSensorNXTSumoEyes slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmplongSetSensorMode_inline_SetSensorNXTSumoEyes long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__D0SetSensorMode_inline_SetSensorNXTSumoEyes slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DU0SetSensorMode_inline_SetSensorNXTSumoEyes long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__zfSetSensorMode_inline_SetSensorNXTSumoEyes byte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strtmpbufSetSensorMode_inline_SetSensorNXTSumoEyes byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strbufSetSensorMode_inline_SetSensorNXTSumoEyes byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strretvalSetSensorMode_inline_SetSensorNXTSumoEyes byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpfloatSetSensorMode_inline_SetSensorNXTSumoEyes float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DF0SetSensorMode_inline_SetSensorNXTSumoEyes float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpsbyteSetSensorMode_inline_SetSensorSound sbyte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpswordSetSensorMode_inline_SetSensorSound sword
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpslongSetSensorMode_inline_SetSensorSound slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmplongSetSensorMode_inline_SetSensorSound long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__D0SetSensorMode_inline_SetSensorSound slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DU0SetSensorMode_inline_SetSensorSound long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__zfSetSensorMode_inline_SetSensorSound byte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strtmpbufSetSensorMode_inline_SetSensorSound byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strbufSetSensorMode_inline_SetSensorSound byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strretvalSetSensorMode_inline_SetSensorSound byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpfloatSetSensorMode_inline_SetSensorSound float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DF0SetSensorMode_inline_SetSensorSound float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpsbyteResetSensor_inline_SetSensorHTEOPD sbyte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpswordResetSensor_inline_SetSensorHTEOPD sword
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpslongResetSensor_inline_SetSensorHTEOPD slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmplongResetSensor_inline_SetSensorHTEOPD long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__D0ResetSensor_inline_SetSensorHTEOPD slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DU0ResetSensor_inline_SetSensorHTEOPD long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__zfResetSensor_inline_SetSensorHTEOPD byte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strtmpbufResetSensor_inline_SetSensorHTEOPD byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strbufResetSensor_inline_SetSensorHTEOPD byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strretvalResetSensor_inline_SetSensorHTEOPD byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpfloatResetSensor_inline_SetSensorHTEOPD float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DF0ResetSensor_inline_SetSensorHTEOPD float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpsbyteResetSensor_inline_SetSensorHTGyro sbyte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpswordResetSensor_inline_SetSensorHTGyro sword
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpslongResetSensor_inline_SetSensorHTGyro slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmplongResetSensor_inline_SetSensorHTGyro long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__D0ResetSensor_inline_SetSensorHTGyro slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DU0ResetSensor_inline_SetSensorHTGyro long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__zfResetSensor_inline_SetSensorHTGyro byte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strtmpbufResetSensor_inline_SetSensorHTGyro byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strbufResetSensor_inline_SetSensorHTGyro byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strretvalResetSensor_inline_SetSensorHTGyro byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpfloatResetSensor_inline_SetSensorHTGyro float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DF0ResetSensor_inline_SetSensorHTGyro float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpsbyteResetSensor_inline_SetSensorHTMagnet sbyte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpswordResetSensor_inline_SetSensorHTMagnet sword
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpslongResetSensor_inline_SetSensorHTMagnet slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmplongResetSensor_inline_SetSensorHTMagnet long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__D0ResetSensor_inline_SetSensorHTMagnet slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DU0ResetSensor_inline_SetSensorHTMagnet long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__zfResetSensor_inline_SetSensorHTMagnet byte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strtmpbufResetSensor_inline_SetSensorHTMagnet byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strbufResetSensor_inline_SetSensorHTMagnet byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strretvalResetSensor_inline_SetSensorHTMagnet byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpfloatResetSensor_inline_SetSensorHTMagnet float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DF0ResetSensor_inline_SetSensorHTMagnet float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpsbyteResetSensor_inline_SetSensorLight sbyte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpswordResetSensor_inline_SetSensorLight sword
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpslongResetSensor_inline_SetSensorLight slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmplongResetSensor_inline_SetSensorLight long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__D0ResetSensor_inline_SetSensorLight slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DU0ResetSensor_inline_SetSensorLight long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__zfResetSensor_inline_SetSensorLight byte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strtmpbufResetSensor_inline_SetSensorLight byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strbufResetSensor_inline_SetSensorLight byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strretvalResetSensor_inline_SetSensorLight byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpfloatResetSensor_inline_SetSensorLight float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DF0ResetSensor_inline_SetSensorLight float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpsbyteResetSensor_inline_SetSensorLowspeed sbyte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpswordResetSensor_inline_SetSensorLowspeed sword
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpslongResetSensor_inline_SetSensorLowspeed slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmplongResetSensor_inline_SetSensorLowspeed long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__D0ResetSensor_inline_SetSensorLowspeed slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DU0ResetSensor_inline_SetSensorLowspeed long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__zfResetSensor_inline_SetSensorLowspeed byte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strtmpbufResetSensor_inline_SetSensorLowspeed byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strbufResetSensor_inline_SetSensorLowspeed byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strretvalResetSensor_inline_SetSensorLowspeed byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpfloatResetSensor_inline_SetSensorLowspeed float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DF0ResetSensor_inline_SetSensorLowspeed float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpsbyteResetSensor_inline_SetSensorMSDROD sbyte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpswordResetSensor_inline_SetSensorMSDROD sword
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpslongResetSensor_inline_SetSensorMSDROD slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmplongResetSensor_inline_SetSensorMSDROD long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__D0ResetSensor_inline_SetSensorMSDROD slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DU0ResetSensor_inline_SetSensorMSDROD long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__zfResetSensor_inline_SetSensorMSDROD byte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strtmpbufResetSensor_inline_SetSensorMSDROD byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strbufResetSensor_inline_SetSensorMSDROD byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strretvalResetSensor_inline_SetSensorMSDROD byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpfloatResetSensor_inline_SetSensorMSDROD float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DF0ResetSensor_inline_SetSensorMSDROD float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpsbyteResetSensor_inline_SetSensorMSPressure sbyte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpswordResetSensor_inline_SetSensorMSPressure sword
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpslongResetSensor_inline_SetSensorMSPressure slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmplongResetSensor_inline_SetSensorMSPressure long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__D0ResetSensor_inline_SetSensorMSPressure slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DU0ResetSensor_inline_SetSensorMSPressure long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__zfResetSensor_inline_SetSensorMSPressure byte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strtmpbufResetSensor_inline_SetSensorMSPressure byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strbufResetSensor_inline_SetSensorMSPressure byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strretvalResetSensor_inline_SetSensorMSPressure byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpfloatResetSensor_inline_SetSensorMSPressure float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DF0ResetSensor_inline_SetSensorMSPressure float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpsbyteResetSensor_inline_SetSensorNXTSumoEyes sbyte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpswordResetSensor_inline_SetSensorNXTSumoEyes sword
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpslongResetSensor_inline_SetSensorNXTSumoEyes slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmplongResetSensor_inline_SetSensorNXTSumoEyes long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__D0ResetSensor_inline_SetSensorNXTSumoEyes slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DU0ResetSensor_inline_SetSensorNXTSumoEyes long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__zfResetSensor_inline_SetSensorNXTSumoEyes byte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strtmpbufResetSensor_inline_SetSensorNXTSumoEyes byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strbufResetSensor_inline_SetSensorNXTSumoEyes byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strretvalResetSensor_inline_SetSensorNXTSumoEyes byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpfloatResetSensor_inline_SetSensorNXTSumoEyes float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DF0ResetSensor_inline_SetSensorNXTSumoEyes float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpsbyteResetSensor_inline_SetSensorSound sbyte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpswordResetSensor_inline_SetSensorSound sword
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpslongResetSensor_inline_SetSensorSound slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmplongResetSensor_inline_SetSensorSound long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__D0ResetSensor_inline_SetSensorSound slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DU0ResetSensor_inline_SetSensorSound long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__zfResetSensor_inline_SetSensorSound byte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strtmpbufResetSensor_inline_SetSensorSound byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strbufResetSensor_inline_SetSensorSound byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strretvalResetSensor_inline_SetSensorSound byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpfloatResetSensor_inline_SetSensorSound float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DF0ResetSensor_inline_SetSensorSound float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
+	__tmpsbyteSetSensor_inline_main sbyte
+#line 9 "C:\CS_492\beta_3\out.nxc"
+	__tmpswordSetSensor_inline_main sword
+#line 9 "C:\CS_492\beta_3\out.nxc"
+	__tmpslongSetSensor_inline_main slong
+#line 9 "C:\CS_492\beta_3\out.nxc"
+	__tmplongSetSensor_inline_main long
+#line 9 "C:\CS_492\beta_3\out.nxc"
+	__D0SetSensor_inline_main slong
+#line 9 "C:\CS_492\beta_3\out.nxc"
+	__DU0SetSensor_inline_main long
+#line 9 "C:\CS_492\beta_3\out.nxc"
+	__zfSetSensor_inline_main byte
+#line 9 "C:\CS_492\beta_3\out.nxc"
+	__strtmpbufSetSensor_inline_main byte[]
+#line 9 "C:\CS_492\beta_3\out.nxc"
+	__strbufSetSensor_inline_main byte[]
+#line 9 "C:\CS_492\beta_3\out.nxc"
+	__strretvalSetSensor_inline_main byte[]
+#line 9 "C:\CS_492\beta_3\out.nxc"
+	__tmpfloatSetSensor_inline_main float
+#line 9 "C:\CS_492\beta_3\out.nxc"
+	__DF0SetSensor_inline_main float
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpsbyteSetSensorLowspeed_inline_SetSensorEMeter sbyte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpswordSetSensorLowspeed_inline_SetSensorEMeter sword
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpslongSetSensorLowspeed_inline_SetSensorEMeter slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmplongSetSensorLowspeed_inline_SetSensorEMeter long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__D0SetSensorLowspeed_inline_SetSensorEMeter slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DU0SetSensorLowspeed_inline_SetSensorEMeter long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__zfSetSensorLowspeed_inline_SetSensorEMeter byte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strtmpbufSetSensorLowspeed_inline_SetSensorEMeter byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strbufSetSensorLowspeed_inline_SetSensorEMeter byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strretvalSetSensorLowspeed_inline_SetSensorEMeter byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpfloatSetSensorLowspeed_inline_SetSensorEMeter float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DF0SetSensorLowspeed_inline_SetSensorEMeter float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpsbyteSetSensorLowspeed_inline_SetSensorTemperature sbyte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpswordSetSensorLowspeed_inline_SetSensorTemperature sword
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpslongSetSensorLowspeed_inline_SetSensorTemperature slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmplongSetSensorLowspeed_inline_SetSensorTemperature long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__D0SetSensorLowspeed_inline_SetSensorTemperature slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DU0SetSensorLowspeed_inline_SetSensorTemperature long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__zfSetSensorLowspeed_inline_SetSensorTemperature byte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strtmpbufSetSensorLowspeed_inline_SetSensorTemperature byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strbufSetSensorLowspeed_inline_SetSensorTemperature byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strretvalSetSensorLowspeed_inline_SetSensorTemperature byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpfloatSetSensorLowspeed_inline_SetSensorTemperature float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DF0SetSensorLowspeed_inline_SetSensorTemperature float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpsbyteSetSensorLowspeed_inline_SetSensorUltrasonic sbyte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpswordSetSensorLowspeed_inline_SetSensorUltrasonic sword
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpslongSetSensorLowspeed_inline_SetSensorUltrasonic slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmplongSetSensorLowspeed_inline_SetSensorUltrasonic long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__D0SetSensorLowspeed_inline_SetSensorUltrasonic slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DU0SetSensorLowspeed_inline_SetSensorUltrasonic long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__zfSetSensorLowspeed_inline_SetSensorUltrasonic byte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strtmpbufSetSensorLowspeed_inline_SetSensorUltrasonic byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strbufSetSensorLowspeed_inline_SetSensorUltrasonic byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strretvalSetSensorLowspeed_inline_SetSensorUltrasonic byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpfloatSetSensorLowspeed_inline_SetSensorUltrasonic float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DF0SetSensorLowspeed_inline_SetSensorUltrasonic float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpsbyteWait_inline_SetSensorNXTSumoEyes sbyte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpswordWait_inline_SetSensorNXTSumoEyes sword
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpslongWait_inline_SetSensorNXTSumoEyes slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmplongWait_inline_SetSensorNXTSumoEyes long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__D0Wait_inline_SetSensorNXTSumoEyes slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DU0Wait_inline_SetSensorNXTSumoEyes long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__zfWait_inline_SetSensorNXTSumoEyes byte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strtmpbufWait_inline_SetSensorNXTSumoEyes byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strbufWait_inline_SetSensorNXTSumoEyes byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strretvalWait_inline_SetSensorNXTSumoEyes byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpfloatWait_inline_SetSensorNXTSumoEyes float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DF0Wait_inline_SetSensorNXTSumoEyes float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpsbyteisupper_inline_isalpha sbyte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpswordisupper_inline_isalpha sword
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpslongisupper_inline_isalpha slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmplongisupper_inline_isalpha long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__D0isupper_inline_isalpha slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DU0isupper_inline_isalpha long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__zfisupper_inline_isalpha byte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strtmpbufisupper_inline_isalpha byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strbufisupper_inline_isalpha byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strretvalisupper_inline_isalpha byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpfloatisupper_inline_isalpha float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DF0isupper_inline_isalpha float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpsbyteisupper_inline_tolower sbyte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpswordisupper_inline_tolower sword
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpslongisupper_inline_tolower slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmplongisupper_inline_tolower long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__D0isupper_inline_tolower slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DU0isupper_inline_tolower long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__zfisupper_inline_tolower byte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strtmpbufisupper_inline_tolower byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strbufisupper_inline_tolower byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strretvalisupper_inline_tolower byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpfloatisupper_inline_tolower float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DF0isupper_inline_tolower float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpsbyteislower_inline_isalpha sbyte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpswordislower_inline_isalpha sword
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpslongislower_inline_isalpha slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmplongislower_inline_isalpha long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__D0islower_inline_isalpha slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DU0islower_inline_isalpha long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__zfislower_inline_isalpha byte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strtmpbufislower_inline_isalpha byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strbufislower_inline_isalpha byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strretvalislower_inline_isalpha byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpfloatislower_inline_isalpha float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DF0islower_inline_isalpha float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpsbyteislower_inline_toupper sbyte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpswordislower_inline_toupper sword
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpslongislower_inline_toupper slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmplongislower_inline_toupper long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__D0islower_inline_toupper slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DU0islower_inline_toupper long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__zfislower_inline_toupper byte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strtmpbufislower_inline_toupper byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strbufislower_inline_toupper byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strretvalislower_inline_toupper byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpfloatislower_inline_toupper float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DF0islower_inline_toupper float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpsbyteisalpha_inline_isalnum sbyte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpswordisalpha_inline_isalnum sword
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpslongisalpha_inline_isalnum slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmplongisalpha_inline_isalnum long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__D0isalpha_inline_isalnum slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DU0isalpha_inline_isalnum long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__zfisalpha_inline_isalnum byte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strtmpbufisalpha_inline_isalnum byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strbufisalpha_inline_isalnum byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strretvalisalpha_inline_isalnum byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpfloatisalpha_inline_isalnum float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DF0isalpha_inline_isalnum float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpsbyteisdigit_inline_isalnum sbyte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpswordisdigit_inline_isalnum sword
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpslongisdigit_inline_isalnum slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmplongisdigit_inline_isalnum long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__D0isdigit_inline_isalnum slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DU0isdigit_inline_isalnum long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__zfisdigit_inline_isalnum byte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strtmpbufisdigit_inline_isalnum byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strbufisdigit_inline_isalnum byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strretvalisdigit_inline_isalnum byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpfloatisdigit_inline_isalnum float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DF0isdigit_inline_isalnum float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpsbyteisdigit_inline_isxdigit sbyte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpswordisdigit_inline_isxdigit sword
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpslongisdigit_inline_isxdigit slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmplongisdigit_inline_isxdigit long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__D0isdigit_inline_isxdigit slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DU0isdigit_inline_isxdigit long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__zfisdigit_inline_isxdigit byte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strtmpbufisdigit_inline_isxdigit byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strbufisdigit_inline_isxdigit byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strretvalisdigit_inline_isxdigit byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpfloatisdigit_inline_isxdigit float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DF0isdigit_inline_isxdigit float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpsbyteisalnum_inline_ispunct sbyte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpswordisalnum_inline_ispunct sword
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpslongisalnum_inline_ispunct slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmplongisalnum_inline_ispunct long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__D0isalnum_inline_ispunct slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DU0isalnum_inline_ispunct long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__zfisalnum_inline_ispunct byte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strtmpbufisalnum_inline_ispunct byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strbufisalnum_inline_ispunct byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strretvalisalnum_inline_ispunct byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpfloatisalnum_inline_ispunct float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DF0isalnum_inline_ispunct float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpsbyteiscntrl_inline_isprint sbyte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpswordiscntrl_inline_isprint sword
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpslongiscntrl_inline_isprint slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmplongiscntrl_inline_isprint long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__D0iscntrl_inline_isprint slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DU0iscntrl_inline_isprint long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__zfiscntrl_inline_isprint byte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strtmpbufiscntrl_inline_isprint byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strbufiscntrl_inline_isprint byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strretvaliscntrl_inline_isprint byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpfloatiscntrl_inline_isprint float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DF0iscntrl_inline_isprint float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpsbyteisprint_inline_isgraph sbyte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpswordisprint_inline_isgraph sword
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpslongisprint_inline_isgraph slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmplongisprint_inline_isgraph long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__D0isprint_inline_isgraph slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DU0isprint_inline_isgraph long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__zfisprint_inline_isgraph byte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strtmpbufisprint_inline_isgraph byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strbufisprint_inline_isgraph byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strretvalisprint_inline_isgraph byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpfloatisprint_inline_isgraph float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DF0isprint_inline_isgraph float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpsbyteisgraph_inline_ispunct sbyte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpswordisgraph_inline_ispunct sword
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpslongisgraph_inline_ispunct slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmplongisgraph_inline_ispunct long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__D0isgraph_inline_ispunct slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DU0isgraph_inline_ispunct long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__zfisgraph_inline_ispunct byte
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strtmpbufisgraph_inline_ispunct byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strbufisgraph_inline_ispunct byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__strretvalisgraph_inline_ispunct byte[]
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__tmpfloatisgraph_inline_ispunct float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__DF0isgraph_inline_ispunct float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_001fopen slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_002fopen slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_003fopen slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_001fopen long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_002fopen long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_003fopen long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_001fopen float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_002fopen float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_003fopen float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_001main slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_002main slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_003main slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_001main long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_002main long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_003main long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_001main float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_002main float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_003main float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_001PlaySound slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_002PlaySound slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_003PlaySound slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_001PlaySound long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_002PlaySound long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_003PlaySound long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_001PlaySound float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_002PlaySound float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_003PlaySound float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_001PlayTones slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_002PlayTones slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_003PlayTones slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_001PlayTones long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_002PlayTones long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_003PlayTones long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_001PlayTones float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_002PlayTones float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_003PlayTones float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_001SensorNXTSumoEyes slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_002SensorNXTSumoEyes slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_003SensorNXTSumoEyes slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_001SensorNXTSumoEyes long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_002SensorNXTSumoEyes long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_003SensorNXTSumoEyes long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_001SensorNXTSumoEyes float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_002SensorNXTSumoEyes float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_003SensorNXTSumoEyes float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_001SetSensorType_inline_SetSensorHTEOPD slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_002SetSensorType_inline_SetSensorHTEOPD slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_003SetSensorType_inline_SetSensorHTEOPD slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_001SetSensorType_inline_SetSensorHTEOPD long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_002SetSensorType_inline_SetSensorHTEOPD long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_003SetSensorType_inline_SetSensorHTEOPD long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_001SetSensorType_inline_SetSensorHTEOPD float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_002SetSensorType_inline_SetSensorHTEOPD float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_003SetSensorType_inline_SetSensorHTEOPD float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_001SetSensorType_inline_SetSensorHTGyro slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_002SetSensorType_inline_SetSensorHTGyro slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_003SetSensorType_inline_SetSensorHTGyro slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_001SetSensorType_inline_SetSensorHTGyro long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_002SetSensorType_inline_SetSensorHTGyro long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_003SetSensorType_inline_SetSensorHTGyro long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_001SetSensorType_inline_SetSensorHTGyro float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_002SetSensorType_inline_SetSensorHTGyro float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_003SetSensorType_inline_SetSensorHTGyro float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_001SetSensorType_inline_SetSensorHTMagnet slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_002SetSensorType_inline_SetSensorHTMagnet slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_003SetSensorType_inline_SetSensorHTMagnet slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_001SetSensorType_inline_SetSensorHTMagnet long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_002SetSensorType_inline_SetSensorHTMagnet long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_003SetSensorType_inline_SetSensorHTMagnet long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_001SetSensorType_inline_SetSensorHTMagnet float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_002SetSensorType_inline_SetSensorHTMagnet float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_003SetSensorType_inline_SetSensorHTMagnet float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_001SetSensorType_inline_SetSensorLight slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_002SetSensorType_inline_SetSensorLight slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_003SetSensorType_inline_SetSensorLight slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_001SetSensorType_inline_SetSensorLight long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_002SetSensorType_inline_SetSensorLight long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_003SetSensorType_inline_SetSensorLight long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_001SetSensorType_inline_SetSensorLight float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_002SetSensorType_inline_SetSensorLight float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_003SetSensorType_inline_SetSensorLight float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_001SetSensorType_inline_SetSensorLowspeed slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_002SetSensorType_inline_SetSensorLowspeed slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_003SetSensorType_inline_SetSensorLowspeed slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_001SetSensorType_inline_SetSensorLowspeed long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_002SetSensorType_inline_SetSensorLowspeed long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_003SetSensorType_inline_SetSensorLowspeed long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_001SetSensorType_inline_SetSensorLowspeed float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_002SetSensorType_inline_SetSensorLowspeed float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_003SetSensorType_inline_SetSensorLowspeed float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_001SetSensorType_inline_SetSensorMSDROD slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_002SetSensorType_inline_SetSensorMSDROD slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_003SetSensorType_inline_SetSensorMSDROD slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_001SetSensorType_inline_SetSensorMSDROD long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_002SetSensorType_inline_SetSensorMSDROD long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_003SetSensorType_inline_SetSensorMSDROD long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_001SetSensorType_inline_SetSensorMSDROD float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_002SetSensorType_inline_SetSensorMSDROD float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_003SetSensorType_inline_SetSensorMSDROD float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_001SetSensorType_inline_SetSensorMSPressure slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_002SetSensorType_inline_SetSensorMSPressure slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_003SetSensorType_inline_SetSensorMSPressure slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_001SetSensorType_inline_SetSensorMSPressure long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_002SetSensorType_inline_SetSensorMSPressure long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_003SetSensorType_inline_SetSensorMSPressure long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_001SetSensorType_inline_SetSensorMSPressure float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_002SetSensorType_inline_SetSensorMSPressure float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_003SetSensorType_inline_SetSensorMSPressure float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_001SetSensorType_inline_SetSensorNXTSumoEyes slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_002SetSensorType_inline_SetSensorNXTSumoEyes slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_003SetSensorType_inline_SetSensorNXTSumoEyes slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_001SetSensorType_inline_SetSensorNXTSumoEyes long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_002SetSensorType_inline_SetSensorNXTSumoEyes long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_003SetSensorType_inline_SetSensorNXTSumoEyes long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_001SetSensorType_inline_SetSensorNXTSumoEyes float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_002SetSensorType_inline_SetSensorNXTSumoEyes float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_003SetSensorType_inline_SetSensorNXTSumoEyes float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_001SetSensorType_inline_SetSensorSound slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_002SetSensorType_inline_SetSensorSound slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_003SetSensorType_inline_SetSensorSound slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_001SetSensorType_inline_SetSensorSound long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_002SetSensorType_inline_SetSensorSound long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_003SetSensorType_inline_SetSensorSound long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_001SetSensorType_inline_SetSensorSound float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_002SetSensorType_inline_SetSensorSound float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_003SetSensorType_inline_SetSensorSound float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_001SetSensorMode_inline_SetSensorHTEOPD slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_002SetSensorMode_inline_SetSensorHTEOPD slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_003SetSensorMode_inline_SetSensorHTEOPD slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_001SetSensorMode_inline_SetSensorHTEOPD long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_002SetSensorMode_inline_SetSensorHTEOPD long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_003SetSensorMode_inline_SetSensorHTEOPD long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_001SetSensorMode_inline_SetSensorHTEOPD float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_002SetSensorMode_inline_SetSensorHTEOPD float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_003SetSensorMode_inline_SetSensorHTEOPD float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_001SetSensorMode_inline_SetSensorHTGyro slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_002SetSensorMode_inline_SetSensorHTGyro slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_003SetSensorMode_inline_SetSensorHTGyro slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_001SetSensorMode_inline_SetSensorHTGyro long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_002SetSensorMode_inline_SetSensorHTGyro long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_003SetSensorMode_inline_SetSensorHTGyro long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_001SetSensorMode_inline_SetSensorHTGyro float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_002SetSensorMode_inline_SetSensorHTGyro float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_003SetSensorMode_inline_SetSensorHTGyro float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_001SetSensorMode_inline_SetSensorHTMagnet slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_002SetSensorMode_inline_SetSensorHTMagnet slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_003SetSensorMode_inline_SetSensorHTMagnet slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_001SetSensorMode_inline_SetSensorHTMagnet long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_002SetSensorMode_inline_SetSensorHTMagnet long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_003SetSensorMode_inline_SetSensorHTMagnet long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_001SetSensorMode_inline_SetSensorHTMagnet float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_002SetSensorMode_inline_SetSensorHTMagnet float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_003SetSensorMode_inline_SetSensorHTMagnet float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_001SetSensorMode_inline_SetSensorLight slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_002SetSensorMode_inline_SetSensorLight slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_003SetSensorMode_inline_SetSensorLight slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_001SetSensorMode_inline_SetSensorLight long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_002SetSensorMode_inline_SetSensorLight long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_003SetSensorMode_inline_SetSensorLight long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_001SetSensorMode_inline_SetSensorLight float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_002SetSensorMode_inline_SetSensorLight float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_003SetSensorMode_inline_SetSensorLight float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_001SetSensorMode_inline_SetSensorLowspeed slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_002SetSensorMode_inline_SetSensorLowspeed slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_003SetSensorMode_inline_SetSensorLowspeed slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_001SetSensorMode_inline_SetSensorLowspeed long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_002SetSensorMode_inline_SetSensorLowspeed long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_003SetSensorMode_inline_SetSensorLowspeed long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_001SetSensorMode_inline_SetSensorLowspeed float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_002SetSensorMode_inline_SetSensorLowspeed float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_003SetSensorMode_inline_SetSensorLowspeed float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_001SetSensorMode_inline_SetSensorMSDROD slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_002SetSensorMode_inline_SetSensorMSDROD slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_003SetSensorMode_inline_SetSensorMSDROD slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_001SetSensorMode_inline_SetSensorMSDROD long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_002SetSensorMode_inline_SetSensorMSDROD long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_003SetSensorMode_inline_SetSensorMSDROD long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_001SetSensorMode_inline_SetSensorMSDROD float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_002SetSensorMode_inline_SetSensorMSDROD float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_003SetSensorMode_inline_SetSensorMSDROD float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_001SetSensorMode_inline_SetSensorMSPressure slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_002SetSensorMode_inline_SetSensorMSPressure slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_003SetSensorMode_inline_SetSensorMSPressure slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_001SetSensorMode_inline_SetSensorMSPressure long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_002SetSensorMode_inline_SetSensorMSPressure long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_003SetSensorMode_inline_SetSensorMSPressure long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_001SetSensorMode_inline_SetSensorMSPressure float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_002SetSensorMode_inline_SetSensorMSPressure float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_003SetSensorMode_inline_SetSensorMSPressure float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_001SetSensorMode_inline_SetSensorNXTSumoEyes slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_002SetSensorMode_inline_SetSensorNXTSumoEyes slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_003SetSensorMode_inline_SetSensorNXTSumoEyes slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_001SetSensorMode_inline_SetSensorNXTSumoEyes long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_002SetSensorMode_inline_SetSensorNXTSumoEyes long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_003SetSensorMode_inline_SetSensorNXTSumoEyes long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_001SetSensorMode_inline_SetSensorNXTSumoEyes float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_002SetSensorMode_inline_SetSensorNXTSumoEyes float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_003SetSensorMode_inline_SetSensorNXTSumoEyes float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_001SetSensorMode_inline_SetSensorSound slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_002SetSensorMode_inline_SetSensorSound slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_003SetSensorMode_inline_SetSensorSound slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_001SetSensorMode_inline_SetSensorSound long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_002SetSensorMode_inline_SetSensorSound long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_003SetSensorMode_inline_SetSensorSound long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_001SetSensorMode_inline_SetSensorSound float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_002SetSensorMode_inline_SetSensorSound float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_003SetSensorMode_inline_SetSensorSound float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_001ResetSensor_inline_SetSensorHTEOPD slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_002ResetSensor_inline_SetSensorHTEOPD slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_003ResetSensor_inline_SetSensorHTEOPD slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_001ResetSensor_inline_SetSensorHTEOPD long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_002ResetSensor_inline_SetSensorHTEOPD long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_003ResetSensor_inline_SetSensorHTEOPD long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_001ResetSensor_inline_SetSensorHTEOPD float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_002ResetSensor_inline_SetSensorHTEOPD float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_003ResetSensor_inline_SetSensorHTEOPD float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_001ResetSensor_inline_SetSensorHTGyro slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_002ResetSensor_inline_SetSensorHTGyro slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_003ResetSensor_inline_SetSensorHTGyro slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_001ResetSensor_inline_SetSensorHTGyro long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_002ResetSensor_inline_SetSensorHTGyro long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_003ResetSensor_inline_SetSensorHTGyro long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_001ResetSensor_inline_SetSensorHTGyro float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_002ResetSensor_inline_SetSensorHTGyro float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_003ResetSensor_inline_SetSensorHTGyro float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_001ResetSensor_inline_SetSensorHTMagnet slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_002ResetSensor_inline_SetSensorHTMagnet slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_003ResetSensor_inline_SetSensorHTMagnet slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_001ResetSensor_inline_SetSensorHTMagnet long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_002ResetSensor_inline_SetSensorHTMagnet long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_003ResetSensor_inline_SetSensorHTMagnet long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_001ResetSensor_inline_SetSensorHTMagnet float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_002ResetSensor_inline_SetSensorHTMagnet float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_003ResetSensor_inline_SetSensorHTMagnet float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_001ResetSensor_inline_SetSensorLight slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_002ResetSensor_inline_SetSensorLight slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_003ResetSensor_inline_SetSensorLight slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_001ResetSensor_inline_SetSensorLight long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_002ResetSensor_inline_SetSensorLight long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_003ResetSensor_inline_SetSensorLight long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_001ResetSensor_inline_SetSensorLight float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_002ResetSensor_inline_SetSensorLight float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_003ResetSensor_inline_SetSensorLight float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_001ResetSensor_inline_SetSensorLowspeed slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_002ResetSensor_inline_SetSensorLowspeed slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_003ResetSensor_inline_SetSensorLowspeed slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_001ResetSensor_inline_SetSensorLowspeed long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_002ResetSensor_inline_SetSensorLowspeed long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_003ResetSensor_inline_SetSensorLowspeed long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_001ResetSensor_inline_SetSensorLowspeed float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_002ResetSensor_inline_SetSensorLowspeed float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_003ResetSensor_inline_SetSensorLowspeed float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_001ResetSensor_inline_SetSensorMSDROD slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_002ResetSensor_inline_SetSensorMSDROD slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_003ResetSensor_inline_SetSensorMSDROD slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_001ResetSensor_inline_SetSensorMSDROD long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_002ResetSensor_inline_SetSensorMSDROD long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_003ResetSensor_inline_SetSensorMSDROD long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_001ResetSensor_inline_SetSensorMSDROD float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_002ResetSensor_inline_SetSensorMSDROD float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_003ResetSensor_inline_SetSensorMSDROD float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_001ResetSensor_inline_SetSensorMSPressure slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_002ResetSensor_inline_SetSensorMSPressure slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_003ResetSensor_inline_SetSensorMSPressure slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_001ResetSensor_inline_SetSensorMSPressure long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_002ResetSensor_inline_SetSensorMSPressure long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_003ResetSensor_inline_SetSensorMSPressure long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_001ResetSensor_inline_SetSensorMSPressure float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_002ResetSensor_inline_SetSensorMSPressure float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_003ResetSensor_inline_SetSensorMSPressure float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_001ResetSensor_inline_SetSensorNXTSumoEyes slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_002ResetSensor_inline_SetSensorNXTSumoEyes slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_003ResetSensor_inline_SetSensorNXTSumoEyes slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_001ResetSensor_inline_SetSensorNXTSumoEyes long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_002ResetSensor_inline_SetSensorNXTSumoEyes long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_003ResetSensor_inline_SetSensorNXTSumoEyes long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_001ResetSensor_inline_SetSensorNXTSumoEyes float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_002ResetSensor_inline_SetSensorNXTSumoEyes float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_003ResetSensor_inline_SetSensorNXTSumoEyes float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_001ResetSensor_inline_SetSensorSound slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_002ResetSensor_inline_SetSensorSound slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_003ResetSensor_inline_SetSensorSound slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_001ResetSensor_inline_SetSensorSound long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_002ResetSensor_inline_SetSensorSound long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_003ResetSensor_inline_SetSensorSound long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_001ResetSensor_inline_SetSensorSound float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_002ResetSensor_inline_SetSensorSound float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_003ResetSensor_inline_SetSensorSound float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
+	__signed_stack_001SetSensor_inline_main slong
+#line 9 "C:\CS_492\beta_3\out.nxc"
+	__signed_stack_002SetSensor_inline_main slong
+#line 9 "C:\CS_492\beta_3\out.nxc"
+	__signed_stack_003SetSensor_inline_main slong
+#line 9 "C:\CS_492\beta_3\out.nxc"
+	__unsigned_stack_001SetSensor_inline_main long
+#line 9 "C:\CS_492\beta_3\out.nxc"
+	__unsigned_stack_002SetSensor_inline_main long
+#line 9 "C:\CS_492\beta_3\out.nxc"
+	__unsigned_stack_003SetSensor_inline_main long
+#line 9 "C:\CS_492\beta_3\out.nxc"
+	__float_stack_001SetSensor_inline_main float
+#line 9 "C:\CS_492\beta_3\out.nxc"
+	__float_stack_002SetSensor_inline_main float
+#line 9 "C:\CS_492\beta_3\out.nxc"
+	__float_stack_003SetSensor_inline_main float
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_001SetSensorLowspeed_inline_SetSensorEMeter slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_002SetSensorLowspeed_inline_SetSensorEMeter slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_003SetSensorLowspeed_inline_SetSensorEMeter slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_001SetSensorLowspeed_inline_SetSensorEMeter long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_002SetSensorLowspeed_inline_SetSensorEMeter long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_003SetSensorLowspeed_inline_SetSensorEMeter long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_001SetSensorLowspeed_inline_SetSensorEMeter float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_002SetSensorLowspeed_inline_SetSensorEMeter float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_003SetSensorLowspeed_inline_SetSensorEMeter float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_001SetSensorLowspeed_inline_SetSensorTemperature slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_002SetSensorLowspeed_inline_SetSensorTemperature slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_003SetSensorLowspeed_inline_SetSensorTemperature slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_001SetSensorLowspeed_inline_SetSensorTemperature long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_002SetSensorLowspeed_inline_SetSensorTemperature long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_003SetSensorLowspeed_inline_SetSensorTemperature long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_001SetSensorLowspeed_inline_SetSensorTemperature float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_002SetSensorLowspeed_inline_SetSensorTemperature float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_003SetSensorLowspeed_inline_SetSensorTemperature float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_001SetSensorLowspeed_inline_SetSensorUltrasonic slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_002SetSensorLowspeed_inline_SetSensorUltrasonic slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_003SetSensorLowspeed_inline_SetSensorUltrasonic slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_001SetSensorLowspeed_inline_SetSensorUltrasonic long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_002SetSensorLowspeed_inline_SetSensorUltrasonic long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_003SetSensorLowspeed_inline_SetSensorUltrasonic long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_001SetSensorLowspeed_inline_SetSensorUltrasonic float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_002SetSensorLowspeed_inline_SetSensorUltrasonic float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_003SetSensorLowspeed_inline_SetSensorUltrasonic float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_001Wait_inline_SetSensorNXTSumoEyes slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_002Wait_inline_SetSensorNXTSumoEyes slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_003Wait_inline_SetSensorNXTSumoEyes slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_001Wait_inline_SetSensorNXTSumoEyes long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_002Wait_inline_SetSensorNXTSumoEyes long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_003Wait_inline_SetSensorNXTSumoEyes long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_001Wait_inline_SetSensorNXTSumoEyes float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_002Wait_inline_SetSensorNXTSumoEyes float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_003Wait_inline_SetSensorNXTSumoEyes float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_001isupper_inline_isalpha slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_002isupper_inline_isalpha slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_003isupper_inline_isalpha slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_001isupper_inline_isalpha long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_002isupper_inline_isalpha long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_003isupper_inline_isalpha long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_001isupper_inline_isalpha float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_002isupper_inline_isalpha float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_003isupper_inline_isalpha float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_001isupper_inline_tolower slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_002isupper_inline_tolower slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_003isupper_inline_tolower slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_001isupper_inline_tolower long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_002isupper_inline_tolower long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_003isupper_inline_tolower long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_001isupper_inline_tolower float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_002isupper_inline_tolower float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_003isupper_inline_tolower float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_001islower_inline_isalpha slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_002islower_inline_isalpha slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_003islower_inline_isalpha slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_001islower_inline_isalpha long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_002islower_inline_isalpha long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_003islower_inline_isalpha long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_001islower_inline_isalpha float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_002islower_inline_isalpha float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_003islower_inline_isalpha float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_001islower_inline_toupper slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_002islower_inline_toupper slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_003islower_inline_toupper slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_001islower_inline_toupper long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_002islower_inline_toupper long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_003islower_inline_toupper long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_001islower_inline_toupper float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_002islower_inline_toupper float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_003islower_inline_toupper float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_001isalpha_inline_isalnum slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_002isalpha_inline_isalnum slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_003isalpha_inline_isalnum slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_001isalpha_inline_isalnum long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_002isalpha_inline_isalnum long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_003isalpha_inline_isalnum long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_001isalpha_inline_isalnum float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_002isalpha_inline_isalnum float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_003isalpha_inline_isalnum float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_001isdigit_inline_isalnum slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_002isdigit_inline_isalnum slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_003isdigit_inline_isalnum slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_001isdigit_inline_isalnum long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_002isdigit_inline_isalnum long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_003isdigit_inline_isalnum long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_001isdigit_inline_isalnum float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_002isdigit_inline_isalnum float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_003isdigit_inline_isalnum float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_001isdigit_inline_isxdigit slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_002isdigit_inline_isxdigit slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_003isdigit_inline_isxdigit slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_001isdigit_inline_isxdigit long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_002isdigit_inline_isxdigit long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_003isdigit_inline_isxdigit long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_001isdigit_inline_isxdigit float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_002isdigit_inline_isxdigit float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_003isdigit_inline_isxdigit float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_001isalnum_inline_ispunct slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_002isalnum_inline_ispunct slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_003isalnum_inline_ispunct slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_001isalnum_inline_ispunct long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_002isalnum_inline_ispunct long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_003isalnum_inline_ispunct long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_001isalnum_inline_ispunct float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_002isalnum_inline_ispunct float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_003isalnum_inline_ispunct float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_001iscntrl_inline_isprint slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_002iscntrl_inline_isprint slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_003iscntrl_inline_isprint slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_001iscntrl_inline_isprint long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_002iscntrl_inline_isprint long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_003iscntrl_inline_isprint long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_001iscntrl_inline_isprint float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_002iscntrl_inline_isprint float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_003iscntrl_inline_isprint float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_001isprint_inline_isgraph slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_002isprint_inline_isgraph slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_003isprint_inline_isgraph slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_001isprint_inline_isgraph long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_002isprint_inline_isgraph long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_003isprint_inline_isgraph long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_001isprint_inline_isgraph float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_002isprint_inline_isgraph float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_003isprint_inline_isgraph float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_001isgraph_inline_ispunct slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_002isgraph_inline_ispunct slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__signed_stack_003isgraph_inline_ispunct slong
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_001isgraph_inline_ispunct long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_002isgraph_inline_ispunct long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__unsigned_stack_003isgraph_inline_ispunct long
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_001isgraph_inline_ispunct float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_002isgraph_inline_ispunct float
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	__float_stack_003isgraph_inline_ispunct float
 dseg ends
 #line 3585 "NXCDefs.h"
@@ -3477,35 +3519,67 @@ thread main
 	call __initialize_global_data
 #line 1 "C:\CS_492\beta_3\out.nxc"
 	arrinit __GraphicOutEmptyVars, 0, 256
+dseg segment
 #line 1 "C:\CS_492\beta_3\out.nxc"
-	set __D0main, 30
+	__SetSensor_7qG2_port_7qG2_000_inline_main byte 
+dseg ends
+dseg segment
+#line 1 "C:\CS_492\beta_3\out.nxc"
+	__SetSensor_7qG2_config_7qG2_000_inline_main word 
+dseg ends
+#line 1 "C:\CS_492\beta_3\out.nxc"
+	set __D0main, 0
 __NXC_Label_490:
 __NXC_Label_489:
 #line 1 "C:\CS_492\beta_3\out.nxc"
-	mov __signed_stack_001main, __D0main
+	mov __SetSensor_7qG2_port_7qG2_000_inline_main, __D0main
 #line 1 "C:\CS_492\beta_3\out.nxc"
-	set __D0main, 360
+	mov __SetSensor_7qG2_config_7qG2_000_inline_main, 288
+#line 3707 "NXCDefs.h"
+setin  288>>8, __SetSensor_7qG2_port_7qG2_000_inline_main, 0
+setin 288&0xff, __SetSensor_7qG2_port_7qG2_000_inline_main, 1
+__ResetSensor(__SetSensor_7qG2_port_7qG2_000_inline_main)
+#line 3711 "NXCDefs.h"
+#line 2 "C:\CS_492\beta_3\out.nxc"
+#line 2 "C:\CS_492\beta_3\out.nxc"
+	set __D0main, 75
 __NXC_Label_492:
 __NXC_Label_491:
 #line 3 "C:\CS_492\beta_3\out.nxc"
-	RotateMotor(0, __signed_stack_001main, __D0main)
+	OnFwd(3, __D0main)
 #line 3 "C:\CS_492\beta_3\out.nxc"
-#line 3 "C:\CS_492\beta_3\out.nxc"
-	set __D0main, 30
-__NXC_Label_494:
 __NXC_Label_493:
+#line 3 "C:\CS_492\beta_3\out.nxc"
+ReadSensor (0, __D0main)
 #line 3 "C:\CS_492\beta_3\out.nxc"
 	mov __signed_stack_001main, __D0main
 #line 3 "C:\CS_492\beta_3\out.nxc"
-	set __D0main, 360
+	set __D0main, 1
+#line 3 "C:\CS_492\beta_3\out.nxc"
+	cmp EQ, __zfmain, __signed_stack_001main, __D0main
+#line 3 "C:\CS_492\beta_3\out.nxc"
+	mov __D0main, __zfmain
+__NXC_Label_498:
+__NXC_Label_497:
+#line 3 "C:\CS_492\beta_3\out.nxc"
+	not __D0main, __D0main
 __NXC_Label_496:
 __NXC_Label_495:
-#line 5 "C:\CS_492\beta_3\out.nxc"
-	RotateMotor(1, __signed_stack_001main, __D0main)
-#line 5 "C:\CS_492\beta_3\out.nxc"
+#line 4 "C:\CS_492\beta_3\out.nxc"
+	tst NEQ, __zfmain, __D0main
+#line 4 "C:\CS_492\beta_3\out.nxc"
+	brtst EQ, __NXC_Label_494, __zfmain
+#line 4 "C:\CS_492\beta_3\out.nxc"
+#line 4 "C:\CS_492\beta_3\out.nxc"
+	jmp __NXC_Label_493
+__NXC_Label_494:
+#line 4 "C:\CS_492\beta_3\out.nxc"
+#line 6 "C:\CS_492\beta_3\out.nxc"
+	Off(3)
+#line 6 "C:\CS_492\beta_3\out.nxc"
 endt
 
 subroutine __initialize_global_data
-#line 8 "C:\CS_492\beta_3\out.nxc"
+#line 9 "C:\CS_492\beta_3\out.nxc"
 	return
 ends

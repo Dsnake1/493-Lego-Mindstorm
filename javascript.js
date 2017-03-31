@@ -173,6 +173,36 @@ Blockly.JavaScript['move_backward_ft'] = function(block) {
   return code;
 };
 
+Blockly.JavaScript['touch_sensor'] = function(block) {
+  // TODO: Assemble JavaScript into code variable.
+  var code = 'touch_sensor\n';
+
+  return code;
+};
+
+Blockly.JavaScript['distance_sensor'] = function(block) {
+  var number_feet = block.getFieldValue('distance');
+  // TODO: Assemble JavaScript into code variable.
+  var code = 'distance_sensor!2\n';
+  
+  if (number_feet === "4_cm") {
+    code = 'distance_sensor!4\n';
+  }
+  
+  if (number_feet === "8_cm") {
+    code = 'distance_sensor!6\n';
+  }
+  
+  if (number_feet === "8_cm") {
+    code = 'distance_sensor!8\n';
+  }
+  
+  if (number_feet === "10_cm") {
+    code = 'distance_sensor!10\n';
+  }
+  return code;
+};
+
 Blockly.JavaScript['do_donuts'] = function(block) {
   var dropdown_spin_type = block.getFieldValue('spin_type');
   var number_inches = block.getFieldValue('inches');
@@ -181,6 +211,8 @@ Blockly.JavaScript['do_donuts'] = function(block) {
 
   return code;
 };
+
+
 
 Blockly.JavaScript['root_thang'] = function(block) {
   var turn_left = Blockly.JavaScript.statementToCode(block, 'turn_left');

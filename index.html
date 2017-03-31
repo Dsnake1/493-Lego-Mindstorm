@@ -18,17 +18,107 @@
       
       function getCode()
       {
-			code = window.Blockly.JavaScript.workspaceToCode();
-         alert (code);
-         return code;
+        code = window.Blockly.JavaScript.workspaceToCode();
+        return code;
+      }
+      
+      function getIOVals()
+      {
+        var touch = document.getElementById("touch_sen");
+        var touchVal = touch.options[touch.selectedIndex].value;
+        var light = document.getElementById("light_sen");
+        var lightVal = light.options[light.selectedIndex].value;
+        var sound = document.getElementById("sound_sen");
+        var soundVal = sound.options[sound.selectedIndex].value;
+        var distance = document.getElementById("distance_sen");
+        var distanceVal = distance.options[distance.selectedIndex].value;  
+        
+        var lM = document.getElementById("leftMotor");
+        var lMVal = lM.options[lM.selectedIndex].value;
+        var rM = document.getElementById("rightMotor");
+        var rMVal = rM.options[rM.selectedIndex].value;
+        var oO = document.getElementById("otherOut");
+        var oOVal = oO.options[oO.selectedIndex].value;   
+        
+        var wDVal = document.getElementById("wheelDiam").value;
+        var tWVal = document.getElementById("trackWid").value;
+        
+        return [touchVal,lightVal,soundVal,distanceVal,lMVal,rMVal,oOVal,wDVal,tWVal].toString();
       }
 	</script>
 </head>
 <body>
 	<h1 id="header">Lego Mindstorm Blockly Controller</h1>
 	<div id="blockly_editor">
+    <br />
+    <table>
+      <tr>
+        <td>Touch Sensor</td>
+        <td><select id="touch_sen">
+        <option value="none">none</option>
+        <option value="IN_1">input 1</option>
+        <option value="IN_2">input 2</option>
+        <option value="IN_3">input 3</option>
+        <option value="IN_4">input 4</option>
+        </select></td>      
+        <td>Left Motor</td>
+        <td><select id="leftMotor">
+        <option value="A">Output A</option>
+        <option value="B">Output B</option>
+        <option value="C">Output C</option>
+        </select></td>
+        <td>Wheel diameter</td>
+        <td><input type="text" id="wheelDiam" value="1"></td>
+      </tr>
+      <tr>
+        <td>Light Sensor</td>
+        <td><select id="light_sen">
+        <option value="none">none</option>
+        <option value="IN_1">input 1</option>
+        <option value="IN_2">input 2</option>
+        <option value="IN_3">input 3</option>
+        <option value="IN_4">input 4</option>
+        </select></td>      
+        <td>Right Motor</td>
+        <td><select id="rightMotor">
+        <option value="A">Output A</option>
+        <option value="B">Output B</option>
+        <option value="C">Output C</option>
+        </select></td>
+        <td>Track Width</td>
+        <td><input type="text" id="trackWid" value="1"></td>
+      </tr>
+      <tr>
+        <td>Sound Sensor</td>
+        <td><select id="sound_sen">
+        <option value="none">none</option>
+        <option value="IN_1">input 1</option>
+        <option value="IN_2">input 2</option>
+        <option value="IN_3">input 3</option>
+        <option value="IN_4">input 4</option>
+        </select></td>      
+        <td>Other Output</td>
+        <td><select id="otherOut">
+        <option value="A">Output A</option>
+        <option value="B">Output B</option>
+        <option value="C">Output C</option>
+        </select></td>
+      </tr>
+      <tr>
+        <td>Distance Sensor</td>
+        <td><select id="distance_sen">
+        <option value="none">none</option>
+        <option value="IN_1">input 1</option>
+        <option value="IN_2">input 2</option>
+        <option value="IN_3">input 3</option>
+        <option value="IN_4">input 4</option>
+        </select></td>  
+      </tr>
+    </table>
+    <br />
 		<!-- Blockly will be injected in the iframe below //-->
-		<iframe id="blockly" src="blockly.html" width="100%" height="100%"></iframe>
+		<iframe id="blockly" src="blockly.html" width="85%" height="85%"></iframe>
+    <br />
 	</div>
 	
 </body>

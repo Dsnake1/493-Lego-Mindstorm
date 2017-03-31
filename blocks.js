@@ -102,6 +102,33 @@ Blockly.Blocks['do_donuts'] = {
   }
 };
 
+Blockly.Blocks['touch_sensor'] = {
+  init: function() {
+    this.appendDummyInput()
+        .appendField("touch_sensor")
+    this.setInputsInline(true);
+    this.setPreviousStatement(true, null);
+    this.setNextStatement(true, null);
+    this.setColour(240);
+    this.setTooltip('This will drive the robot forward until it touches something');
+    this.setHelpUrl('');
+  }
+};
+
+Blockly.Blocks['distance_sensor'] = {
+  init: function() {
+    this.appendDummyInput()
+        .appendField("distance_from_object_cm")
+        .appendField(new Blockly.FieldDropdown([["2","2_cm"],["4","4_cm"],["6","6_cm"],["8","8_cm"],["10","10_cm"],]), "distance");
+    this.setInputsInline(true);
+    this.setPreviousStatement(true, null);
+    this.setNextStatement(true, null);
+    this.setColour(240);
+    this.setTooltip('This block will move your robot until you are a specified centimeter distance from an object');
+    this.setHelpUrl('');
+  }
+};
+
 
 Blockly.Blocks['root_thang'] = {
   init: function() {
