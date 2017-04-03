@@ -1,8 +1,8 @@
-# Status: Current file = "C:\CS_492\beta_3\out.nxc"
+# Status: Current file = "C:\CS_492\beta_5\out.nxc"
 # Status: NXC compilation begins
 # Status: Compiling for firmware version 128, NBC/NXC enhanced = FALSE
 # Status: Running NXC preprocessor
-# Status: Include path = .\;C:\CS_492\beta_3\;"C:\Program Files (x86)\BricxCC\"
+# Status: Include path = .\;C:\CS_492\beta_5\;"C:\Program Files (x86)\BricxCC\"
 # Status: Processing include: NBCCommon.h
 # Status: NXC init program
 # Status: Current file = "NXCDefs.h"
@@ -182,7 +182,7 @@
 # Status: NXC processing function block: glBox
 # Status: NXC processing function block: glCube
 # Status: NXC processing function block: glPyramid
-# Status: Current file = "C:\CS_492\beta_3\out.nxc"
+# Status: Current file = "C:\CS_492\beta_5\out.nxc"
 # Status: NXC processing procedure block: main
 # Status: NXC processing global declarations
 # Status: NXC generate trailer
@@ -191,7 +191,7 @@
 # Status: Compiling for firmware version 128, NBC/NXC enhanced = FALSE
 # Status: Loading NBC system files
 # Status: Running NBC Preprocessor
-# Status: Include path = .\;C:\CS_492\beta_3\;"C:\Program Files (x86)\BricxCC\"
+# Status: Include path = .\;C:\CS_492\beta_5\;"C:\Program Files (x86)\BricxCC\"
 # Status: Processing include: NBCCommon.h
 # Status: Compiling NBC source code
 # Status: Finished compiling NBC source code
@@ -212,4 +212,3 @@
 # Status: Write code to executable
 # Status: Write optimized source to compiler output
 # Status: Finished
-# Status: Download failed

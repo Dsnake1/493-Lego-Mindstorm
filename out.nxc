@@ -1,7 +1,10 @@
 task main () {
-SetSensor(IN_1,SENSOR_TOUCH);
- OnFwd(OUT_AB, 75);
-until (SENSOR_1 == 1);
-Off(OUT_AB);
+SetSensorLowspeed(IN_1);
+while(true){OnFwd(OUT_BC,50);
+while(SensorUS(IN_1)>4);
+Off(OUT_BC);
+OnRev(OUT_C,100);
+Wait(800);
+}
 
 }
