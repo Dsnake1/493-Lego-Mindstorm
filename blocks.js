@@ -4,7 +4,7 @@ Blockly.Blocks['turn_left'] = {
   init: function() {
     this.appendDummyInput()
         .appendField("Turn left")
-        .appendField(new Blockly.FieldDropdown([["30 degrees","slight_left"], ["60 degrees","strong_left"], ["90 degrees","hard_left"]]), "left");
+        .appendField(new Blockly.FieldDropdown([["30 degrees","slight_left"], ["60 degrees","strong_left"], ["90 degrees","hard_left"], ["120 degrees","120_left"], ["150 degrees","150_left"], ["180 degrees","180_left"]]), "left");
     this.setInputsInline(true);
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
@@ -18,7 +18,7 @@ Blockly.Blocks['turn_right'] = {
   init: function() {
     this.appendDummyInput()
         .appendField("Turn right")
-        .appendField(new Blockly.FieldDropdown([["30 degrees","slight_right"], ["60 degrees","strong_right"], ["90 degrees","hard_right"]]), "right");
+        .appendField(new Blockly.FieldDropdown([["30 degrees","slight_right"], ["60 degrees","strong_right"], ["90 degrees","hard_right"], ["120 degrees","120_right"], ["150 degrees","150_right"], ["180 degrees","180_right"]]), "right");
     this.setInputsInline(true);
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
