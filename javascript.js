@@ -14,7 +14,15 @@ Blockly.JavaScript['turn_left'] = function(block) {
   if (dropdown_left === "hard_left") { //determine if user wants a hard left turn
     code = 'hard_turn_left\n';
   }
-
+  if (dropdown_left === "120_left") { 
+    code = '120_left\n'; 
+  }
+  if (dropdown_left === "150_left") { 
+    code = '150_left\n'; 
+  }
+  if (dropdown_left === "180_left") { 
+    code = '180_left\n'; 
+  }
   return code;
 };
 
@@ -29,6 +37,15 @@ Blockly.JavaScript['turn_right'] = function(block) {
   
   if (dropdown_right === "hard_right") { //determine if user wants a hard right turn
     code = 'hard_turn_right\n';
+  }
+  if (dropdown_right === "120_right") { 
+    code = '120_right\n'; 
+  }
+  if (dropdown_right === "150_right") { 
+    code = '150_right\n'; 
+  }
+  if (dropdown_right === "180_right") { 
+    code = '180_right\n'; 
   }
   return code;
 };
