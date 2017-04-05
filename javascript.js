@@ -5,14 +5,14 @@
 Blockly.JavaScript['turn_left'] = function(block) {
   var dropdown_left = block.getFieldValue('left');
   // TODO: Assemble JavaScript into code variable.
-  var code = 'little_turn_left\n'; //default value for turn left is a slight_left value
+  var code = 'turn_left!30\n'; //default value for turn left is a slight_left value
   
-  if (dropdown_left === "strong_left") { //determine if user wants a strong left turn
-    code = 'strong_turn_left\n';
+  if (dropdown_left === "tl_60") { //determine if user wants a strong left turn
+    code = 'turn_left!60\n';
   }
   
-  if (dropdown_left === "hard_left") { //determine if user wants a hard left turn
-    code = 'hard_turn_left\n';
+  if (dropdown_left === "tl_90") { //determine if user wants a hard left turn
+    code = 'turn_left!90\n';
   }
 
   return code;
@@ -21,14 +21,45 @@ Blockly.JavaScript['turn_left'] = function(block) {
 Blockly.JavaScript['turn_right'] = function(block) {
   var dropdown_right = block.getFieldValue('right');
   // TODO: Assemble JavaScript into code variable.
-  var code = 'little_turn_right\n'; //default value for turn right is a slight_right value
+  var code = 'turn_right!30\n'; //default value for turn right is a slight_right value
   
-  if (dropdown_right === "strong_right") { //determine if user wants a strong right turn
-    code = 'strong_turn_right\n';
+  if (dropdown_right === "tr_60") { //determine if user wants a strong right turn
+    code = 'turn_right!60\n';
   }
   
-  if (dropdown_right === "hard_right") { //determine if user wants a hard right turn
-    code = 'hard_turn_right\n';
+  if (dropdown_right === "tr_90") { //determine if user wants a hard right turn
+    code = 'turn_right!90\n';
+  }
+  return code;
+};
+
+Blockly.JavaScript['turn_left_in_place'] = function(block) {
+  var dropdown_left = block.getFieldValue('left_ip');
+  // TODO: Assemble JavaScript into code variable.
+  var code = 'turn_left_ip!30\n'; //default value for turn left is a slight_left value
+  
+  if (dropdown_left === "tlip_60") { //determine if user wants a strong left turn
+    code = 'turn_left_ip!60\n';
+  }
+  
+  if (dropdown_left === "tlip_90") { //determine if user wants a hard left turn
+    code = 'turn_left_ip!90\n';
+  }
+
+  return code;
+};
+
+Blockly.JavaScript['turn_right_in_place'] = function(block) {
+  var dropdown_right = block.getFieldValue('right_ip');
+  // TODO: Assemble JavaScript into code variable.
+  var code = 'turn_right_ip!30\n'; //default value for turn right is a slight_right value
+  
+  if (dropdown_right === "trip_60") { //determine if user wants a strong right turn
+    code = 'turn_right_ip!60\n';
+  }
+  
+  if (dropdown_right === "trip_90") { //determine if user wants a hard right turn
+    code = 'turn_right_ip!90\n';
   }
   return code;
 };
@@ -189,7 +220,7 @@ Blockly.JavaScript['distance_sensor'] = function(block) {
     code = 'distance_sensor!4\n';
   }
   
-  if (number_feet === "8_cm") {
+  if (number_feet === "6_cm") {
     code = 'distance_sensor!6\n';
   }
   
@@ -203,38 +234,34 @@ Blockly.JavaScript['distance_sensor'] = function(block) {
   return code;
 };
 
-Blockly.JavaScript['do_donuts_clockwise'] = function(block) {
-  var num_spins = block.getFieldValue('spins');
-  var code = 'do_donuts_clockwise!1\n';
-  if (num_spins === "2") {
-     code = 'do_donuts_clockwise!2\n';
-  }
-  if (num_spins === "3") {
-     code = 'do_donuts_clockwise!3\n';
-  }
-  if (num_spins === "4") {
-     code = 'do_donuts_clockwise!4\n';
-  }
-  if (num_spins === "5") {
-     code = 'do_donuts_clockwise!5\n';
-  }
+Blockly.JavaScript['do_donuts'] = function(block) {
+  var dropdown_spin_type = block.getFieldValue('spin_type');
+  var number_inches = block.getFieldValue('inches');
+  // TODO: Assemble JavaScript into code variable.
+  var code = 'do_donuts\n';
+
   return code;
 };
-      
-Blockly.JavaScript['do_donuts_counterclockwise'] = function(block) {
-  var num_spins = block.getFieldValue('spins');
-  var code = 'do_donuts_counterclockwise!1\n';
-  if (num_spins === "2") {
-     code = 'do_donuts_counterclockwise!2\n';
-  }
-  if (num_spins === "3") {
-     code = 'do_donuts_counterclockwise!3\n';
-  }
-  if (num_spins === "4") {
-     code = 'do_donuts_counterclockwise!4\n';
-  }
-  if (num_spins === "5") {
-     code = 'do_donuts_counterclockwise!5\n';
-  }
+
+
+
+Blockly.JavaScript['root_thang'] = function(block) {
+  var turn_left = Blockly.JavaScript.statementToCode(block, 'turn_left');
+  var turn_right = Blockly.JavaScript.valueToCode(block, 'turn_right');
+  var move_forward = Blockly.JavaScript.valueToCode(block, 'move_forward');
+  var move_backward = Blockly.JavaScript.valueToCode(block, 'move_backward');
+  var do_donuts = Blockly.JavaScript.statementToCode(block, 'do_donuts');
+
+  var code = 'main()\n{';
+  code +=    turn_left;
+  code +=    turn_right;
+  code +=    move_forward;
+  code +=    move_backward;
+  code +=    do_donuts;
+  code +=    code 
+  
+  return code;
+  
+  
   return code;
 };
