@@ -203,34 +203,38 @@ Blockly.JavaScript['distance_sensor'] = function(block) {
   return code;
 };
 
-Blockly.JavaScript['do_donuts'] = function(block) {
-  var dropdown_spin_type = block.getFieldValue('spin_type');
-  var number_inches = block.getFieldValue('inches');
-  // TODO: Assemble JavaScript into code variable.
-  var code = 'do_donuts\n';
-
+Blockly.JavaScript['do_donuts_clockwise'] = function(block) {
+  var num_spins = block.getFieldValue('spins');
+  var code = 'do_donuts_clockwise!1\n';
+  if (num_spins === "2") {
+     code = 'do_donuts_clockwise!2\n';
+  }
+  if (num_spins === "3") {
+     code = 'do_donuts_clockwise!3\n';
+  }
+  if (num_spins === "4") {
+     code = 'do_donuts_clockwise!4\n';
+  }
+  if (num_spins === "5") {
+     code = 'do_donuts_clockwise!5\n';
+  }
   return code;
 };
-
-
-
-Blockly.JavaScript['root_thang'] = function(block) {
-  var turn_left = Blockly.JavaScript.statementToCode(block, 'turn_left');
-  var turn_right = Blockly.JavaScript.valueToCode(block, 'turn_right');
-  var move_forward = Blockly.JavaScript.valueToCode(block, 'move_forward');
-  var move_backward = Blockly.JavaScript.valueToCode(block, 'move_backward');
-  var do_donuts = Blockly.JavaScript.statementToCode(block, 'do_donuts');
-
-  var code = 'main()\n{';
-  code +=    turn_left;
-  code +=    turn_right;
-  code +=    move_forward;
-  code +=    move_backward;
-  code +=    do_donuts;
-  code +=    code 
-  
-  return code;
-  
-  
+      
+Blockly.JavaScript['do_donuts_counterclockwise'] = function(block) {
+  var num_spins = block.getFieldValue('spins');
+  var code = 'do_donuts_counterclockwise!1\n';
+  if (num_spins === "2") {
+     code = 'do_donuts_counterclockwise!2\n';
+  }
+  if (num_spins === "3") {
+     code = 'do_donuts_counterclockwise!3\n';
+  }
+  if (num_spins === "4") {
+     code = 'do_donuts_counterclockwise!4\n';
+  }
+  if (num_spins === "5") {
+     code = 'do_donuts_counterclockwise!5\n';
+  }
   return code;
 };
