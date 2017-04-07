@@ -5,23 +5,23 @@
 Blockly.JavaScript['turn_left'] = function(block) {
   var dropdown_left = block.getFieldValue('left');
   // TODO: Assemble JavaScript into code variable.
-  var code = 'little_turn_left\n'; //default value for turn left is a slight_left value
+  var code = 'turn_left!30\n'; //default value for turn left is a slight_left value
   
-  if (dropdown_left === "strong_left") { //determine if user wants a strong left turn
-    code = 'strong_turn_left\n';
+  if (dropdown_left === "tl_60") { //determine if user wants a strong left turn
+    code = 'turn_left!60\n';
   }
   
-  if (dropdown_left === "hard_left") { //determine if user wants a hard left turn
-    code = 'hard_turn_left\n';
+  if (dropdown_left === "tl_90") { //determine if user wants a hard left turn
+    code = 'turn_left!90\n';
   }
-  if (dropdown_left === "120_left") { 
-    code = '120_left\n'; 
+  if (dropdown_left === "tl_120") { 
+    code = 'turn_left!120\n'; 
   }
-  if (dropdown_left === "150_left") { 
-    code = '150_left\n'; 
+  if (dropdown_left === "tl_150") { 
+    code = 'turn_left!150\n'; 
   }
-  if (dropdown_left === "180_left") { 
-    code = '180_left\n'; 
+  if (dropdown_left === "tl_180") { 
+    code = 'turn_left!180\n'; 
   }
   return code;
 };
@@ -29,24 +29,75 @@ Blockly.JavaScript['turn_left'] = function(block) {
 Blockly.JavaScript['turn_right'] = function(block) {
   var dropdown_right = block.getFieldValue('right');
   // TODO: Assemble JavaScript into code variable.
-  var code = 'little_turn_right\n'; //default value for turn right is a slight_right value
+  var code = 'turn_right!30\n'; //default value for turn right is a slight_right value
   
-  if (dropdown_right === "strong_right") { //determine if user wants a strong right turn
-    code = 'strong_turn_right\n';
+  if (dropdown_left === "tr_60") { //determine if user wants a strong right turn
+    code = 'turn_right!60\n';
   }
   
-  if (dropdown_right === "hard_right") { //determine if user wants a hard right turn
-    code = 'hard_turn_right\n';
+  if (dropdown_left === "tr_90") { //determine if user wants a hard right turn
+    code = 'turn_right!90\n';
   }
-  if (dropdown_right === "120_right") { 
-    code = '120_right\n'; 
+  if (dropdown_left === "tr_120") { 
+    code = 'turn_right!120\n'; 
   }
-  if (dropdown_right === "150_right") { 
-    code = '150_right\n'; 
+  if (dropdown_left === "tr_150") { 
+    code = 'turn_right!150\n'; 
   }
-  if (dropdown_right === "180_right") { 
-    code = '180_right\n'; 
+  if (dropdown_left === "tr_180") { 
+    code = 'turn_right!180\n'; 
   }
+  return code;
+};
+
+Blockly.JavaScript['turn_left_in_place'] = function(block) {
+  var dropdown_left = block.getFieldValue('left_ip');
+  // TODO: Assemble JavaScript into code variable.
+  var code = 'turn_left_ip!30\n'; //default value for turn left is a slight_left value
+  
+  if (dropdown_left === "tlip_60") { //determine if user wants a strong left turn
+    code = 'turn_left_ip!60\n';
+  }
+  
+  if (dropdown_left === "tlip_90") { //determine if user wants a hard left turn
+    code = 'turn_left_ip!90\n';
+  }
+  if (dropdown_left === "tlip_120") { 
+    code = 'turn_left_ip!120\n';
+  return code;
+  };
+  if (dropdown_left === "tlip_150") { 
+    code = 'turn_left_ip!150\n';
+  return code;
+  };
+  if (dropdown_left === "tlip_180") { 
+    code = 'turn_left_ip!180\n';
+  };
+  return code;
+};
+Blockly.JavaScript['turn_right_in_place'] = function(block) {
+  var dropdown_right = block.getFieldValue('right_ip');
+  // TODO: Assemble JavaScript into code variable.
+  var code = 'turn_right_ip!30\n'; //default value for turn right is a slight_right value
+  
+  if (dropdown_right === "trip_60") { //determine if user wants a strong right turn
+    code = 'turn_right_ip!60\n';
+  }
+  
+  if (dropdown_right === "trip_90") { //determine if user wants a hard right turn
+    code = 'turn_right_ip!90\n';
+  }
+  if (dropdown_left === "trip_120") { 
+    code = 'turn_right_ip!120\n';
+  return code;
+  };
+  if (dropdown_left === "trip_150") { 
+    code = 'turn_right_ip!150\n';
+  return code;
+  };
+  if (dropdown_left === "trip_180") { 
+    code = 'turn_right_ip!180\n';
+  };
   return code;
 };
 
