@@ -13,8 +13,17 @@ Blockly.JavaScript['turn_left'] = function(block) {
   
   if (dropdown_left === "tl_90") { //determine if user wants a hard left turn
     code = 'turn_left!90\n';
-  }
 
+  }
+  if (dropdown_left === "tl_120") { 
+    code = 'turn_left!120\n'; 
+  }
+  if (dropdown_left === "tl_150") { 
+    code = 'turn_left!150\n'; 
+  }
+  if (dropdown_left === "tl_180") { 
+    code = 'turn_left!180\n'; 
+  }
   return code;
 };
 
@@ -23,12 +32,22 @@ Blockly.JavaScript['turn_right'] = function(block) {
   // TODO: Assemble JavaScript into code variable.
   var code = 'turn_right!30\n'; //default value for turn right is a slight_right value
   
-  if (dropdown_right === "tr_60") { //determine if user wants a strong right turn
+
+  if (dropdown_left === "tr_60") { //determine if user wants a strong right turn
     code = 'turn_right!60\n';
   }
   
-  if (dropdown_right === "tr_90") { //determine if user wants a hard right turn
+  if (dropdown_left === "tr_90") { //determine if user wants a hard right turn
     code = 'turn_right!90\n';
+  }
+  if (dropdown_left === "tr_120") { 
+    code = 'turn_right!120\n'; 
+  }
+  if (dropdown_left === "tr_150") { 
+    code = 'turn_right!150\n'; 
+  }
+  if (dropdown_left === "tr_180") { 
+    code = 'turn_right!180\n'; 
   }
   return code;
 };
@@ -45,10 +64,19 @@ Blockly.JavaScript['turn_left_in_place'] = function(block) {
   if (dropdown_left === "tlip_90") { //determine if user wants a hard left turn
     code = 'turn_left_ip!90\n';
   }
-
+  if (dropdown_left === "tlip_120") { 
+    code = 'turn_left_ip!120\n';
+  return code;
+  };
+  if (dropdown_left === "tlip_150") { 
+    code = 'turn_left_ip!150\n';
+  return code;
+  };
+  if (dropdown_left === "tlip_180") { 
+    code = 'turn_left_ip!180\n';
+  };
   return code;
 };
-
 Blockly.JavaScript['turn_right_in_place'] = function(block) {
   var dropdown_right = block.getFieldValue('right_ip');
   // TODO: Assemble JavaScript into code variable.
@@ -61,6 +89,17 @@ Blockly.JavaScript['turn_right_in_place'] = function(block) {
   if (dropdown_right === "trip_90") { //determine if user wants a hard right turn
     code = 'turn_right_ip!90\n';
   }
+  if (dropdown_left === "trip_120") { 
+    code = 'turn_right_ip!120\n';
+  return code;
+  };
+  if (dropdown_left === "trip_150") { 
+    code = 'turn_right_ip!150\n';
+  return code;
+  };
+  if (dropdown_left === "trip_180") { 
+    code = 'turn_right_ip!180\n';
+  };
   return code;
 };
 

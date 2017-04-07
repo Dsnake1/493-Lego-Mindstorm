@@ -2,7 +2,9 @@ Blockly.Blocks['turn_left'] = {
   init: function() {
     this.appendDummyInput()
         .appendField("Turn left")
-        .appendField(new Blockly.FieldDropdown([["30 degrees","tl_30"], ["60 degrees","tl_60"], ["90 degrees","tl_90"]]), "left");
+
+        .appendField(new Blockly.FieldDropdown([["30 degrees","tl_30"], ["60 degrees","tl_60"], ["90 degrees","tl_90"], ["120 degrees","tl_120"], ["150 degrees","tl_150"], ["180 degrees","tl_180"]]), "left");
+
     this.setInputsInline(true);
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
@@ -16,7 +18,7 @@ Blockly.Blocks['turn_right'] = {
   init: function() {
     this.appendDummyInput()
         .appendField("Turn right")
-        .appendField(new Blockly.FieldDropdown([["30 degrees","tr_30"], ["60 degrees","tr_60"], ["90 degrees","tr_90"]]), "right");
+        .appendField(new Blockly.FieldDropdown([["30 degrees","tr_30"], ["60 degrees","tr_60"], ["90 degrees","tr_90"], ["120 degrees","tr_120"], ["150 degrees","tr_150"], ["180 degrees","tr_180"]]), "right");
     this.setInputsInline(true);
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
@@ -30,7 +32,7 @@ Blockly.Blocks['turn_left_in_place'] = {
   init: function() {
     this.appendDummyInput()
         .appendField("Turn left in place")
-        .appendField(new Blockly.FieldDropdown([["30 degrees","tlip_30"], ["60 degrees","tlip_60"], ["90 degrees","tlip_90"]]), "left_ip");
+        .appendField(new Blockly.FieldDropdown([["30 degrees","tlip_30"], ["60 degrees","tlip_60"], ["90 degrees","tlip_90"], ["120 degrees","tlip_120"], ["150 degrees","tlip_150"], ["180 degrees","tlip_180"]]), "left_ip");
     this.setInputsInline(true);
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
@@ -44,7 +46,7 @@ Blockly.Blocks['turn_right_in_place'] = {
   init: function() {
     this.appendDummyInput()
         .appendField("Turn right in place")
-        .appendField(new Blockly.FieldDropdown([["30 degrees","trip_30"], ["60 degrees","trip_60"], ["90 degrees","trip_90"]]), "right_ip");
+        .appendField(new Blockly.FieldDropdown([["30 degrees","trip_30"], ["60 degrees","trip_60"], ["90 degrees","trip_90"], ["120 degrees","trip_120"], ["150 degrees","trip_150"], ["180 degrees","trip_180"]]), "right_ip");
     this.setInputsInline(true);
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
@@ -53,7 +55,6 @@ Blockly.Blocks['turn_right_in_place'] = {
     this.setHelpUrl('');
   }
 };
-
 Blockly.Blocks['move_forward_in'] = {
   init: function() {
     this.appendDummyInput()
@@ -139,4 +140,33 @@ Blockly.Blocks['distance_sensor'] = {
     this.setHelpUrl('');
   }
 };
-                                                  
+
+                                                
+Blockly.Blocks['do_donuts_clockwise'] = {
+  init: function() {
+    this.appendDummyInput()
+        .appendField("Do Donuts Clockwise")
+        .appendField(new Blockly.FieldDropdown([["1 turns","1_turn"], ["2 turns","2_turn"], ["3 turns","3_turn"], ["4 turns","4_turn"], ["5 turns","5_turn"]]), "spins")
+    this.setInputsInline(true);
+    this.setPreviousStatement(true, null);
+    this.setNextStatement(true, null);
+    this.setColour(240);
+    this.setTooltip('this is to do donuts clockwise');
+    this.setHelpUrl('');
+  }
+};
+                                               
+Blockly.Blocks['do_donuts_counterclockwise'] = {
+  init: function() {
+    this.appendDummyInput()
+        .appendField("Do Donuts Counterclockwise")
+        .appendField(new Blockly.FieldDropdown([["1 turns","1_turn"], ["2 turns","2_turn"], ["3 turns","3_turn"], ["4 turns","4_turn"], ["5 turns","5_turn"]]), "spins")
+    this.setInputsInline(true);
+    this.setPreviousStatement(true, null);
+    this.setNextStatement(true, null);
+    this.setColour(240);
+    this.setTooltip('this is to do donuts counterclockwise');
+    this.setHelpUrl('');
+  }
+};                            
+
