@@ -28,6 +28,33 @@ Blockly.Blocks['turn_right'] = {
   }
 };
 
+Blockly.Blocks['turn_left_in_place'] = {
+  init: function() {
+    this.appendDummyInput()
+        .appendField("Turn left in place")
+        .appendField(new Blockly.FieldDropdown([["30 degrees","tlip_30"], ["60 degrees","tlip_60"], ["90 degrees","tlip_90"], ["120 degrees","tlip_120"], ["150 degrees","tlip_150"], ["180 degrees","tlip_180"]]), "left_ip");
+    this.setInputsInline(true);
+    this.setPreviousStatement(true, null);
+    this.setNextStatement(true, null);
+    this.setColour(90);
+    this.setTooltip('this is to turn left');
+    this.setHelpUrl('');
+  }
+};
+ 
+Blockly.Blocks['turn_right_in_place'] = {
+  init: function() {
+    this.appendDummyInput()
+        .appendField("Turn right in place")
+        .appendField(new Blockly.FieldDropdown([["30 degrees","trip_30"], ["60 degrees","trip_60"], ["90 degrees","trip_90"], ["120 degrees","trip_120"], ["150 degrees","trip_150"], ["180 degrees","trip_180"]]), "right_ip");
+    this.setInputsInline(true);
+    this.setPreviousStatement(true, null);
+    this.setNextStatement(true, null);
+    this.setColour(90);
+    this.setTooltip('this is to turn right');
+    this.setHelpUrl('');
+  }
+};
 Blockly.Blocks['move_forward_in'] = {
   init: function() {
     this.appendDummyInput()
