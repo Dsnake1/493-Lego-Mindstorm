@@ -1,5 +1,0 @@
-task main () {
-RotateMotor(OUT_A, 30, 900);
-RotateMotor(OUT_B, 30, 900);
-
-}
