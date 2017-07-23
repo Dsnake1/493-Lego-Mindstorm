@@ -48,4 +48,4 @@
         
   There is a lot of things we did just to make it work due to our crunched time table. Ideally a lot of our logic would be easily maintained, but unfortunately we had to do case by case as they came up because we didn’t know what the next problem was going to be.  I think it would be really cool to have different blockly.html web pages that get loaded in based on the abilities of the user. So there would be a beginner, intermediate, and advanced blockly.html page that would have easier to more advanced blocks for the advanced users. I also think Dr. Marsh’s idea of controlling a virtual robot would be really cool to implement. 
 
-  If you have any questions or need any help feel free to contact me at michael58201@gmail.com and I will do my best to help you out. Even though I have not worked on the project since May 2017.
+  If you have any questions or need any help feel free to contact Mike at michael58201@gmail.com or Dylan at schnabel.dylan@gmail.com and we will do our best to help you out. 
